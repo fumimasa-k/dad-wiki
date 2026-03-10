@@ -1,0 +1,32 @@
+[
+  {
+    "id": "q-001",
+    "name": "初期クエスト（例）",
+    "giver": "The Merchant",
+    "maps": [ "example-map" ],
+    "objectives": [ "収集" ],
+    "requirements": [ "レベル1以上（例）" ],
+    "items": [ "Ancient Relic x1（例）" ],
+    "rewards": [ "Gold +50（例）", "Reputation +1（例）" ],
+    "steps": [ "Example Dungeon に入る", "Ancient Relic を入手", "依頼主に報告" ],
+    "notes": "ドロップが低い場合は周回前提。未検証情報はラベルを付ける。",
+    "source": "実測（例）",
+    "lastVerified": "2026-02-22",
+    "patchChangedIn": []
+  },
+  {
+    "id": "q-002",
+    "name": "討伐クエスト（例）",
+    "giver": "The Guard",
+    "maps": [ "example-map" ],
+    "objectives": [ "討伐" ],
+    "requirements": [],
+    "items": [],
+    "rewards": [ "Gold +80（例）" ],
+    "steps": [ "指定モンスターを3体倒す", "報告" ],
+    "notes": "パーティ推奨（例）。",
+    "source": "パッチノート（例）",
+    "lastVerified": "2026-02-22",
+    "patchChangedIn": [ "2026-02-22-hotfix" ]
+  }
+]
