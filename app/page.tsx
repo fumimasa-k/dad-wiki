@@ -15,9 +15,9 @@ export default function HomePage() {
                 <p className="muted">
                     マップ / クエスト / パッチノートを今後追加・更新予定です。
                     <br />
-		{/*
+	        	{/*
                     追加は <span className="kbd">data/</span>（JSON）と <span className="kbd">content/</span>（Markdown）に入れるだけ。
-		*/}
+		        */}
                 </p>
             </div>
 
@@ -36,7 +36,7 @@ export default function HomePage() {
                     <hr className="sep" />
                     <Link href="/maps">一覧へ →</Link>
                 </div>
-{/*
+            {/*
                 <div className="card">
                     <div className="h2">クエスト</div>
                     <div className="muted">登録数: {quests.length}</div>
@@ -51,7 +51,7 @@ export default function HomePage() {
                     <hr className="sep" />
                     <Link href="/quests">一覧へ →</Link>
                 </div>
-*/}
+            */}
             </div>
 
             <div className="card">
