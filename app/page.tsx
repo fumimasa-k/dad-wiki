@@ -11,13 +11,16 @@ export default function HomePage() {
     return (
         <div className="grid" style={{ gap: 16 }}>
             <div className="card">
-                <h1 className="h1">Dark and Darker 攻略サイト</h1>
+                <h1 className="h1">Dark and Darker 日本語版 攻略サイト</h1>
                 <p className="muted">
                     マップ / クエスト / パッチノートを今後追加・更新予定です。
                     <br />
+		{/*
+                    追加は <span className="kbd">data/</span>（JSON）と <span className="kbd">content/</span>（Markdown）に入れるだけ。
+		*/}
                 </p>
             </div>
-
+{/*
             <div className="grid grid-2">
                 <div className="card">
                     <div className="h2">マップ</div>
@@ -49,7 +52,7 @@ export default function HomePage() {
                     <Link href="/quests">一覧へ →</Link>
                 </div>
             </div>
-
+*/}
             <div className="card">
                 <div className="h2">パッチノート</div>
                 <div className="muted">記事数: {notes.length}</div>
