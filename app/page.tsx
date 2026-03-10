@@ -20,7 +20,7 @@ export default function HomePage() {
 		*/}
                 </p>
             </div>
-{/*
+
             <div className="grid grid-2">
                 <div className="card">
                     <div className="h2">マップ</div>
@@ -36,7 +36,7 @@ export default function HomePage() {
                     <hr className="sep" />
                     <Link href="/maps">一覧へ →</Link>
                 </div>
-
+{/*
                 <div className="card">
                     <div className="h2">クエスト</div>
                     <div className="muted">登録数: {quests.length}</div>
