@@ -13,9 +13,8 @@ export default function HomePage() {
             <div className="card">
                 <h1 className="h1">Dark and Darker 攻略サイト</h1>
                 <p className="muted">
-                    マップ / クエスト / パッチノートを「データ + 記事」で管理するための最小構成です。
+                    マップ / クエスト / パッチノートを今後追加・更新予定です。
                     <br />
-                    追加は <span className="kbd">data/</span>（JSON）と <span className="kbd">content/</span>（Markdown）に入れるだけ。
                 </p>
             </div>
 
