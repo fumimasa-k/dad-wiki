@@ -51,8 +51,9 @@ export default function HomePage() {
                     <hr className="sep" />
                     <Link href="/quests">一覧へ →</Link>
                 </div>
-            </div>
 */}
+            </div>
+
             <div className="card">
                 <div className="h2">パッチノート</div>
                 <div className="muted">記事数: {notes.length}</div>
