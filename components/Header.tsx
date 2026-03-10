@@ -8,12 +8,14 @@ export default function Header() {
                     <Link href="/" style={{ fontWeight: 800, fontSize: 16 }}>
                         DaD Wiki
                     </Link>
-                    <span className="muted" style={{ fontSize: 12 }}>雛形</span>
+                    <span className="muted" style={{ fontSize: 12 }}>日本語版</span>
                 </div>
 
                 <nav style={{ display: "flex", gap: 14, fontSize: 14 }}>
+{/*
                     <Link href="/maps">マップ</Link>
                     <Link href="/quests">クエスト</Link>
+*/}
                     <Link href="/patch-notes">パッチノート</Link>
                 </nav>
             </div>
