@@ -30,13 +30,14 @@ export default async function MapDetailPage({
           style={{
             position: "relative",
             width: "100%",
-            aspectRatio: "16 / 9",
+            aspectRatio: "1 / 1",
             borderRadius: 16,
             overflow: "hidden",
             border: "1px solid var(--border)",
+            background: "#0a0d14"
           }}
         >
-          <Image src={map.image} alt={map.name} fill style={{ objectFit: "cover" }} priority />
+         <Image src={map.image} alt={map.name} fill style={{ objectFit: "contain" }} priority />
           {(map.points ?? []).map((p) => (
             <div
               key={p.id}
