@@ -1,64 +1,87 @@
 [
   {
-    "slug": "Forgotten-Castle-Ruins",
-    "name": "忘れられた城：遺跡",
-    "image": "/maps/Forgotten-Castle-Ruins.png",
+    "slug": "Forgotten-Castle",
+    "name": "忘れられた城",
+    "coverImage": "/maps/covers/Forgotten-Castle.png",
+    "description": "忘れられた城の各階層マップ",
     "lastVerified": "2026-03-11",
-    "points": []
+    "floors": [
+      {
+        "id": "1f",
+        "name": "Ⅰ. 遺跡",
+        "image": "/maps/Forgotten-Castle-Ruins.png",
+        "points": []
+      },
+      {
+        "id": "2f",
+        "name": "Ⅱ. 地下墓所",
+        "image": "/maps/Forgotten-Castle-Crypt.png",
+        "points": []
+      },
+      {
+        "id": "3f",
+        "name": "Ⅲ. インフェルノ",
+        "image": "/maps/Forgotten-Castle-Inferno.png",
+        "points": []
+      }
+    ]
   },
-  {
-    "slug": "Forgotten-Castle-Crypt",
-    "name": "忘れられた城：地下墓所",
-    "image": "/maps/Forgotten-Castle-Crypt.png",
-    "lastVerified": "2026-03-11",
-    "points": []
-  },
-  {
-    "slug": "Forgotten-Castle-Inferno",
-    "name": "忘れられた城：インフェルノ",
-    "image": "/maps/Forgotten-Castle-Inferno.png",
-    "lastVerified": "2026-03-11",
-    "points": []
-  },
-
   {
     "slug": "Goblin-Caves",
     "name": "ゴブリン洞窟",
-    "image": "/maps/Goblin-Caves.png",
+    "coverImage": "/maps/covers/Goblin-Caves.png",
+    "description": "ゴブリン洞窟の各階層マップ",
     "lastVerified": "2026-03-11",
-    "points": []
+    "floors": [
+      {
+        "id": "1f",
+        "name": "Ⅰ. ゴブリン洞窟",
+        "image": "/maps/Goblin-Caves.png",
+        "points": []
+      },
+      {
+        "id": "2f",
+        "name": "Ⅱ. 火の深淵",
+        "image": "/maps/Goblin-Caves-Firedeep.png",
+        "points": []
+      }
+    ]
   },
-
   {
-    "slug": "Goblin-Caves-Firedeep",
-    "name": "ゴブリン洞窟：火の深淵",
-    "image": "/maps/Goblin-Caves-Firedeep.png",
+    "slug": "Frost-Mountain",
+    "name": "氷雪山脈",
+    "coverImage": "/maps/covers/Frost-Mountain.png",
+    "description": "氷雪山脈の各階層マップ",
     "lastVerified": "2026-03-11",
-    "points": []
-  },
-
-  {
-    "slug": "Frost-Mountain-Ice-Cavern",
-    "name": "氷雪山脈：氷晶洞窟",
-    "image": "/maps/Frost-Mountain-Ice-Cavern.png",
-    "lastVerified": "2026-03-11",
-    "points": []
-  },
-
-  {
-    "slug": "Frost-Mountain-Ice-Abyss",
-    "name": "氷雪山脈：氷の深淵",
-    "image": "/maps/Frost-Mountain-Ice-Abyss.png",
-    "lastVerified": "2026-03-11",
-    "points": []
+    "floors": [
+      {
+        "id": "1f",
+        "name": "Ⅰ. 氷晶洞窟",
+        "image": "/maps/Frost-Mountain-Ice-Cavern.png",
+        "points": []
+      },
+      {
+        "id": "2f",
+        "name": "Ⅱ. 氷の深淵",
+        "image": "/maps/Frost-Mountain-Ice-Abyss.png",
+        "points": []
+      }
+    ]
   },
 
   {
     "slug": "Blue-Maelstrom",
     "name": "蒼き渦潮",
-    "image": "/maps/Blue-Maelstrom.png",
+    "coverImage": "/maps/covers/Blue-Maelstrom.png",
     "lastVerified": "2026-03-11",
-    "points": []
+    "floors": [
+      {
+        "id": "1f",
+        "name": "Ⅰ. 船の墓場",
+        "image": "/maps/Blue-Maelstrom.png",
+        "points": []
+      }
+    ]
   },
 
   {

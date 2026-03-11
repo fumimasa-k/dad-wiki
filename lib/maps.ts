@@ -1,13 +1,27 @@
 import maps from "@/data/maps.json";
 
-export type MapPoint = { id: string; name: string; note?: string; x: number; y: number };
+export type MapPoint = {
+	id: string;
+	name: string;
+	note?: string;
+	x: number;
+	y: number;
+};
+
+export type MapFloor = {
+	id: string;
+	name: string;
+	image: string;
+	points?: MapPoint[];
+};
+
 export type MapInfo = {
 	slug: string;
 	name: string;
-	image: string;
+	coverImage?: string;
 	description?: string;
 	lastVerified?: string;
-	points?: MapPoint[];
+	floors: MapFloor[];
 };
 
 export function getAllMaps(): MapInfo[] {
