@@ -429,8 +429,29 @@ hr.sep {
 
 .questGrid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
-    gap: 20px;
+    grid-template-columns: repeat(7, minmax(0, 1fr));
+    gap: 18px;
+}
+
+/* タブレット */
+@media (max-width: 1200px) {
+    .questGrid {
+        grid-template-columns: repeat(5, minmax(0, 1fr));
+    }
+}
+
+/* 小型タブレット */
+@media (max-width: 900px) {
+    .questGrid {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+}
+
+/* 縦画面（スマホ） */
+@media (max-width: 640px) {
+    .questGrid {
+        grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    }
 }
 
 .questCard {
@@ -439,7 +460,7 @@ hr.sep {
     border-radius: 12px;
     overflow: hidden;
     border: 1px solid var(--border);
-    transition: transform 0.2s;
+    transition: transform 0.18s ease;
 }
 
     .questCard:hover {
