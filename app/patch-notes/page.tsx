@@ -12,7 +12,7 @@ export default function PatchNotesPage() {
             <div className="card">
                 <h1 className="h1">パッチノート</h1>
                 <p className="muted">
-                    <span className="kbd">content/patch-notes</span> に Markdown を追加するだけで増えます。
+                {/*    <span className="kbd">content/patch-notes</span> に Markdown を追加するだけで増えます。*/}
                 </p>
             </div>
 
