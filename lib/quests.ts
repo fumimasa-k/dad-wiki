@@ -1,25 +1,15 @@
 import quests from "@/data/quests.json";
 
-export type Quest = {
-	id: string;
+export type QuestNpc = {
+	slug: string;
 	name: string;
-	giver: string;
-	maps: string[];
-	objectives: string[];
-	requirements: string[];
-	items: string[];
-	rewards: string[];
-	steps: string[];
-	notes?: string;
-	source?: string;
-	lastVerified?: string;
-	patchChangedIn?: string[];
+	image: string;
 };
 
-export function getAllQuests(): Quest[] {
-	return quests as Quest[];
+export function getAllQuests(): QuestNpc[] {
+	return quests as QuestNpc[];
 }
 
-export function getQuestById(id: string): Quest | undefined {
-	return (quests as Quest[]).find((q) => q.id === id);
+export function getQuestBySlug(slug: string): QuestNpc | undefined {
+	return (quests as QuestNpc[]).find((q) => q.slug === slug);
 }
