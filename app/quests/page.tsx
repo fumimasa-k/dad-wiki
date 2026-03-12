@@ -13,10 +13,12 @@ export default function QuestsPage() {
 
     return (
         <div className="grid" style={{ gap: 16 }}>
+            {/*
             <div className="card">
                 <h1 className="h1">クエスト</h1>
                 <p className="muted">NPCごとのクエストページ</p>
             </div>
+            */}
 
             <div className="card">
                 <div className="questGrid">
