@@ -13,9 +13,7 @@ export default function Header() {
 
                 <nav style={{ display: "flex", gap: 14, fontSize: 14 }}>
                     <Link href="/maps">マップ</Link>
-{/*
                     <Link href="/quests">クエスト</Link>
-*/}
                     <Link href="/patch-notes">パッチノート</Link>
                 </nav>
             </div>

@@ -1,32 +1,102 @@
 [
   {
-    "id": "q-001",
-    "name": "初期クエスト（例）",
-    "giver": "The Merchant",
-    "maps": [ "example-map" ],
-    "objectives": [ "収集" ],
-    "requirements": [ "レベル1以上（例）" ],
-    "items": [ "Ancient Relic x1（例）" ],
-    "rewards": [ "Gold +50（例）", "Reputation +1（例）" ],
-    "steps": [ "Example Dungeon に入る", "Ancient Relic を入手", "依頼主に報告" ],
-    "notes": "ドロップが低い場合は周回前提。未検証情報はラベルを付ける。",
-    "source": "実測（例）",
-    "lastVerified": "2026-02-22",
-    "patchChangedIn": []
+    "slug": "Alchemist",
+    "name": "錬金術師",
+    "image": "/quests/Alchemist.jpg"
   },
   {
-    "id": "q-002",
-    "name": "討伐クエスト（例）",
-    "giver": "The Guard",
-    "maps": [ "example-map" ],
-    "objectives": [ "討伐" ],
-    "requirements": [],
-    "items": [],
-    "rewards": [ "Gold +80（例）" ],
-    "steps": [ "指定モンスターを3体倒す", "報告" ],
-    "notes": "パーティ推奨（例）。",
-    "source": "パッチノート（例）",
-    "lastVerified": "2026-02-22",
-    "patchChangedIn": [ "2026-02-22-hotfix" ]
+    "slug": "Surgeon",
+    "name": "外科医",
+    "image": "/quests/Surgeon.jpg"
+  },
+  {
+    "slug": "Collector",
+    "name": "コレクター",
+    "image": "/quests/Collector.jpg"
+  },
+  {
+    "slug": "Squire",
+    "name": "従者",
+    "image": "/quests/Squire.jpg"
+  },
+  {
+    "slug": "Tavern-Master",
+    "name": "酒場の亭主",
+    "image": "/quests/Tavern-Master.jpg"
+  },
+  {
+    "slug": "Goblin-Merchant",
+    "name": "ゴブリン商人",
+    "image": "/quests/Goblin-Merchant.jpg"
+  },
+  {
+    "slug": "Armourer",
+    "name": "防具職人",
+    "image": "/quests/Armourer.jpg"
+  },
+  {
+    "slug": "Weaponsmith",
+    "name": "武器職人",
+    "image": "/quests/Weaponsmith.jpg"
+  },
+  {
+    "slug": "Woodsman",
+    "name": "狩人",
+    "image": "/quests/Woodsman.jpg"
+  },
+  {
+    "slug": "Tailor",
+    "name": "裁縫師",
+    "image": "/quests/Tailor.jpg"
+  },
+  {
+    "slug": "Leathersmith",
+    "name": "皮職人",
+    "image": "/quests/Leathersmith.jpg"
+  },
+  {
+    "slug": "Treasurer",
+    "name": "会計士",
+    "image": "/quests/Treasurer.jpg"
+  },
+  {
+    "slug": "Huntress",
+    "name": "女狩人",
+    "image": "/quests/Huntress.jpg"
+  },
+  {
+    "slug": "Goldsmith",
+    "name": "金細工師",
+    "image": "/quests/Goldsmith.jpg"
+  },
+  {
+    "slug": "Fortune-Teller",
+    "name": "占い師",
+    "image": "/quests/Fortune-Teller.jpg"
+  },
+  {
+    "slug": "Navigator",
+    "name": "ナビゲーター",
+    "image": "/quests/Navigator.jpg"
+  },
+  {
+    "slug": "Miner",
+    "name": "鉱夫",
+    "image": "/quests/Miner.jpg"
+  },
+  {
+    "slug": "Dealmaker",
+    "name": "ディールメーカー",
+    "image": "/quests/Dealmaker.jpg"
+  },
+  {
+    "slug": "Valentine",
+    "name": "バレンタイン",
+    "image": "/quests/Valentine.jpg"
+  },
+  {
+    "slug": "Cockatrice",
+    "name": "コカトリス",
+    "image": "/quests/Cockatrice.jpg"
   }
 ]
