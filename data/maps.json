@@ -81,30 +81,5 @@
         "points": []
       }
     ]
-  },
-
-  {
-    "slug": "example-map",
-    "name": "Example Dungeon",
-    "image": "/maps/example-map.png",
-    "description": "マップ雛形。画像と地点データ（将来）を置けるようにしています。",
-    "lastVerified": "2026-02-22",
-    "points": [
-      {
-        "id": "p1",
-        "name": "入口",
-        "note": "開始地点の例",
-        "x": 0.15,
-        "y": 0.72
-      },
-      {
-        "id": "p2",
-        "name": "宝箱",
-        "note": "高価値の箱（例）",
-        "x": 0.62,
-        "y": 0.40
-      }
-    ]
   }
-
 ]
