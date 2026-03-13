@@ -2,101 +2,200 @@
   {
     "slug": "Alchemist",
     "name": "錬金術師",
-    "image": "/quests/Alchemist.jpg"
+    "image": "/quests/Alchemist.jpg",
+    "description": "説明文",
+    "quests": []
   },
   {
     "slug": "Surgeon",
     "name": "外科医",
-    "image": "/quests/Surgeon.jpg"
+    "image": "/quests/Surgeon.jpg",
+    "description": "説明文",
+    "quests": []
   },
   {
     "slug": "Collector",
     "name": "コレクター",
-    "image": "/quests/Collector.jpg"
+    "image": "/quests/Collector.jpg",
+    "description": "説明文",
+    "quests": []
   },
   {
     "slug": "Squire",
     "name": "従者",
-    "image": "/quests/Squire.jpg"
+    "image": "/quests/Squire.jpg",
+    "description": "説明文",
+    "quests": []
   },
   {
     "slug": "Tavern-Master",
     "name": "酒場の亭主",
-    "image": "/quests/Tavern-Master.jpg"
+    "image": "/quests/Tavern-Master.jpg",
+    "description": "説明文",
+    "quests": []
   },
   {
     "slug": "Goblin-Merchant",
     "name": "ゴブリン商人",
-    "image": "/quests/Goblin-Merchant.jpg"
+    "image": "/quests/Goblin-Merchant.jpg",
+    "description": "説明文",
+    "quests": []
   },
   {
     "slug": "Armourer",
     "name": "防具職人",
-    "image": "/quests/Armourer.jpg"
+    "image": "/quests/Armourer.jpg",
+    "description": "説明文",
+    "quests": []
   },
   {
     "slug": "Weaponsmith",
     "name": "武器職人",
-    "image": "/quests/Weaponsmith.jpg"
+    "image": "/quests/Weaponsmith.jpg",
+    "description": "説明文",
+    "quests": []
   },
   {
     "slug": "Woodsman",
     "name": "狩人",
-    "image": "/quests/Woodsman.jpg"
+    "image": "/quests/Woodsman.jpg",
+    "description": "説明文",
+    "quests": []
   },
   {
     "slug": "Tailor",
     "name": "裁縫師",
-    "image": "/quests/Tailor.jpg"
+    "image": "/quests/Tailor.jpg",
+    "description": "説明文",
+    "quests": []
   },
   {
     "slug": "Leathersmith",
     "name": "皮職人",
-    "image": "/quests/Leathersmith.jpg"
+    "image": "/quests/Leathersmith.jpg",
+    "description": "説明文",
+    "quests": []
   },
   {
     "slug": "Treasurer",
     "name": "会計士",
-    "image": "/quests/Treasurer.jpg"
+    "image": "/quests/Treasurer.jpg",
+    "description": "説明文",
+    "quests": []
   },
   {
     "slug": "Huntress",
     "name": "女狩人",
-    "image": "/quests/Huntress.jpg"
+    "image": "/quests/Huntress.jpg",
+    "description": "説明文",
+    "quests": []
   },
   {
     "slug": "Goldsmith",
     "name": "金細工師",
-    "image": "/quests/Goldsmith.jpg"
+    "image": "/quests/Goldsmith.jpg",
+    "description": "説明文",
+    "quests": []
   },
   {
     "slug": "Fortune-Teller",
     "name": "占い師",
-    "image": "/quests/Fortune-Teller.jpg"
+    "image": "/quests/Fortune-Teller.jpg",
+    "description": "説明文",
+    "quests": []
   },
   {
     "slug": "Navigator",
     "name": "ナビゲーター",
-    "image": "/quests/Navigator.jpg"
+    "image": "/quests/Navigator.jpg",
+    "description": "説明文",
+    "quests": []
   },
   {
     "slug": "Miner",
     "name": "鉱夫",
-    "image": "/quests/Miner.jpg"
+    "image": "/quests/Miner.jpg",
+    "description": "説明文",
+    "quests": []
   },
   {
     "slug": "Dealmaker",
     "name": "ディールメーカー",
-    "image": "/quests/Dealmaker.jpg"
+    "image": "/quests/Dealmaker.jpg",
+    "description": "説明文",
+    "quests": []
   },
   {
     "slug": "Valentine",
     "name": "バレンタイン",
-    "image": "/quests/Valentine.jpg"
+    "image": "/quests/Valentine.jpg",
+    "description": "バレンタインのクエスト一覧",
+    "quests": [
+      {
+        "id": "valentine-q1",
+        "title": "愛のための排除",
+        "description": "愛の季節が到来いたしました…しかしながら、大気はいまだ死の気配に満ちております。スケルトン、ゴブリン、コボルト……疫病は、動くものすべてに蔓延しております。",
+        "type": "討伐",
+        "repeatable": true,
+        "rewards": [
+          {
+            "name": "花",
+            "image": "/items/flower.png",
+            "count": 1
+          },
+          {
+            "name": "紫の服",
+            "image": "/items/purple-cloth.png",
+            "count": 1
+          }
+        ],
+        "objectives": [
+          {
+            "label": "ゴブリンキル数",
+            "current": 0,
+            "target": 10,
+            "done": false
+          },
+          {
+            "label": "コボルトキル数",
+            "current": 0,
+            "target": 10,
+            "done": false
+          },
+          {
+            "label": "スケルトンキル数",
+            "current": 10,
+            "target": 10,
+            "done": true
+          }
+        ],
+        "notes": [ "ダンジョンタイプ: すべて" ]
+      },
+      {
+        "id": "valentine-q2",
+        "title": "先陣を切れ",
+        "description": "先陣を切り、脅威を取り除いてください。戦場を整えることが次の一手につながります。",
+        "type": "討伐",
+        "repeatable": true,
+        "rewards": [],
+        "objectives": [
+          {
+            "label": "敵を倒す",
+            "current": 0,
+            "target": 5,
+            "done": false
+          }
+        ],
+        "notes": []
+      }
+    ]
   },
   {
     "slug": "Cockatrice",
     "name": "コカトリス",
-    "image": "/quests/Cockatrice.jpg"
+    "image": "/quests/Cockatrice.jpg",
+    "description": "説明文",
+    "quests": []
   }
 ]
+

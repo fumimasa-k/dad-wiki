@@ -546,3 +546,281 @@ hr.sep {
     font-weight: 700;
     background: #1b2233;
 }
+
+.questBoard {
+    display: grid;
+    grid-template-columns: 44% 56%;
+    gap: 20px;
+    min-height: 760px;
+}
+
+.questSidebar {
+    border-right: 1px solid var(--border);
+    padding-right: 16px;
+    overflow-y: auto;
+}
+
+.questList {
+    margin-top: 10px;
+    display: grid;
+    gap: 4px;
+}
+
+.questListItem {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    width: 100%;
+    padding: 12px 14px;
+    border: 0;
+    border-bottom: 1px solid rgba(255,255,255,0.08);
+    background: transparent;
+    color: var(--text);
+    cursor: pointer;
+    text-align: left;
+}
+
+    .questListItem:hover {
+        background: rgba(255,255,255,0.04);
+    }
+
+    .questListItem.active {
+        background: rgba(255,255,255,0.08);
+    }
+
+.questListItemTitle {
+    font-size: 18px;
+}
+
+.questListItemMeta {
+    font-size: 24px;
+    color: var(--muted);
+}
+
+.questDetailPane {
+    padding: 12px 24px 20px 12px;
+    display: grid;
+    gap: 18px;
+}
+
+.questDetailTop {
+    display: grid;
+    grid-template-columns: 140px 1fr;
+    gap: 20px;
+    align-items: start;
+}
+
+.questNpcCard {
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    overflow: hidden;
+    background: rgba(255,255,255,0.03);
+}
+
+.questNpcImageWrap {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 1 / 1;
+}
+
+.questNpcImage {
+    object-fit: cover;
+}
+
+.questNpcAffinity {
+    padding: 10px 14px;
+    font-size: 16px;
+    color: #d3b27c;
+}
+
+.questDescription {
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+.questDetailTitle {
+    margin: 0 0 8px;
+    font-size: 28px;
+    color: #f3c14a;
+}
+
+.questTimeLimit {
+    margin-top: 14px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #f3c14a;
+}
+
+.questSection {
+    border-top: 1px solid rgba(255,255,255,0.08);
+    padding-top: 16px;
+}
+
+.questSectionTitle {
+    font-size: 22px;
+    font-weight: 800;
+    color: #f3c14a;
+    margin-bottom: 12px;
+}
+
+.questItemGrid {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.questItemCard {
+    width: 70px;
+    text-align: center;
+}
+
+.questItemImageWrap {
+    position: relative;
+    width: 64px;
+    height: 64px;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.questItemImage {
+    object-fit: contain;
+}
+
+.questItemName {
+    margin-top: 6px;
+    font-size: 13px;
+    color: var(--muted);
+}
+
+.questItemCount {
+    margin-top: 4px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.questObjectives {
+    display: grid;
+    gap: 10px;
+}
+
+.questObjectiveRow {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 12px;
+    align-items: center;
+}
+
+.questCheck {
+    width: 32px;
+    height: 32px;
+    border: 1px solid var(--border);
+    background: rgba(255,255,255,0.03);
+    display: grid;
+    place-items: center;
+    font-size: 20px;
+}
+
+    .questCheck.done {
+        color: #f3c14a;
+        border-color: #9a7b2f;
+        background: rgba(243, 193, 74, 0.12);
+    }
+
+.questObjectiveLabel {
+    font-size: 18px;
+}
+
+.questObjectiveProgress {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.questNotes {
+    margin: 0;
+    padding-left: 18px;
+}
+
+@media (max-width: 1100px) {
+    .questBoard {
+        grid-template-columns: 1fr;
+    }
+
+    .questSidebar {
+        border-right: 0;
+        border-bottom: 1px solid var(--border);
+        padding-right: 0;
+        padding-bottom: 16px;
+    }
+
+    .questDetailPane {
+        padding-left: 0;
+    }
+
+    .questDetailTop {
+        grid-template-columns: 140px 1fr;
+    }
+}
+
+@media (max-width: 700px) {
+    .questDetailTop {
+        grid-template-columns: 1fr;
+    }
+
+    .questNpcCard {
+        max-width: 140px;
+    }
+
+    .questListItemTitle,
+    .questObjectiveLabel,
+    .questObjectiveProgress,
+    .questDescription {
+        font-size: 16px;
+    }
+}
+
+.questNpcSelectBar {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.questNpcSelectLabel {
+    font-weight: 700;
+    color: var(--text);
+}
+
+.questNpcSelect {
+    min-width: 260px;
+    padding: 10px 12px;
+    border-radius: 12px;
+    border: 1px solid var(--border);
+    background: rgba(255, 255, 255, 0.04);
+    color: var(--text);
+    outline: none;
+}
+
+.questSidebarCurrentNpc {
+    font-size: 20px;
+    font-weight: 800;
+    padding: 10px 14px;
+    border-radius: 10px;
+    background: rgba(255, 183, 0, 0.14);
+    color: #f3c14a;
+    margin-bottom: 10px;
+}
+
+.questNpcSelect {
+    min-width: 260px;
+    padding: 10px 12px;
+    border-radius: 10px;
+    border: 1px solid #3a4560;
+    background: #1b2233;
+    color: #fff;
+    font-size: 16px;
+}
+
+.questNpcSelect option {
+    background: #1b2233;
+    color: #fff;
+}

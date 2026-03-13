@@ -1,44 +1,272 @@
-import Image from "next/image";
-import Link from "next/link";
-import quests from "@/data/quests.json";
+"use client";
 
-type QuestNpc = {
+import { useMemo, useState } from "react";
+import Image from "next/image";
+import questsData from "@/data/quests.json";
+
+type ItemInfo = {
+    name: string;
+    image: string;
+    count: number;
+};
+
+type Objective = {
+    label: string;
+    current: number;
+    target: number;
+    done: boolean;
+};
+
+type QuestInfo = {
+    id: string;
+    title: string;
+    description?: string;
+    type: string;
+    repeatable?: boolean;
+    timeLimit?: string;
+    requiredItems?: ItemInfo[];
+    rewards?: ItemInfo[];
+    objectives?: Objective[];
+    notes?: string[];
+};
+
+type RawNpcQuestGroup = {
     slug: string;
     name: string;
     image: string;
+    affinity?: number;
+    affinityLabel?: string;
+    description?: string;
+    quests?: QuestInfo[];
 };
 
+type NpcQuestGroup = {
+    slug: string;
+    name: string;
+    image: string;
+    affinity: number;
+    affinityLabel: string;
+    description: string;
+    quests: QuestInfo[];
+};
+
+function normalizeNpcData(data: RawNpcQuestGroup[]): NpcQuestGroup[] {
+    return data.map((npc) => ({
+        slug: npc.slug,
+        name: npc.name,
+        image: npc.image,
+        affinity: npc.affinity ?? 0,
+        affinityLabel: npc.affinityLabel ?? "中立",
+        description: npc.description ?? `${npc.name}のクエスト一覧。`,
+        quests: Array.isArray(npc.quests) ? npc.quests : [],
+    }));
+}
+
 export default function QuestsPage() {
-    const npcQuests = quests as QuestNpc[];
+    const npcGroups = normalizeNpcData(questsData as RawNpcQuestGroup[]);
+
+    const firstNpcWithQuest =
+        npcGroups.find((npc) => npc.quests.length > 0) ?? npcGroups[0];
+
+    const [selectedNpcSlug, setSelectedNpcSlug] = useState(firstNpcWithQuest?.slug ?? "");
+    const [selectedQuestId, setSelectedQuestId] = useState(
+        firstNpcWithQuest?.quests?.[0]?.id ?? ""
+    );
+
+    const selectedNpc = useMemo(() => {
+        return npcGroups.find((npc) => npc.slug === selectedNpcSlug) ?? firstNpcWithQuest;
+    }, [npcGroups, selectedNpcSlug, firstNpcWithQuest]);
+
+    const selectedQuest = useMemo(() => {
+        if (!selectedNpc) return undefined;
+        if (!Array.isArray(selectedNpc.quests) || selectedNpc.quests.length === 0) return undefined;
+
+        return selectedNpc.quests.find((q) => q.id === selectedQuestId) ?? selectedNpc.quests[0];
+    }, [selectedNpc, selectedQuestId]);
+
+    function handleSelectNpcBySlug(slug: string) {
+        const npc = npcGroups.find((x) => x.slug === slug);
+        if (!npc) return;
+
+        setSelectedNpcSlug(npc.slug);
+        setSelectedQuestId(npc.quests?.[0]?.id ?? "");
+    }
+
+    if (!npcGroups.length) {
+        return (
+            <div className="grid" style={{ gap: 16 }}>
+                <div className="card">
+                    <h1 className="h1">クエスト</h1>
+                    <p className="muted">クエストデータがありません。</p>
+                </div>
+            </div>
+        );
+    }
+
+    if (!selectedNpc) {
+        return (
+            <div className="grid" style={{ gap: 16 }}>
+                <div className="card">
+                    <h1 className="h1">クエスト</h1>
+                    <p className="muted">NPCデータが見つかりません。</p>
+                </div>
+            </div>
+        );
+    }
 
     return (
         <div className="grid" style={{ gap: 16 }}>
-            {/*
-            <div className="card">
-                <h1 className="h1">クエスト</h1>
-                <p className="muted">NPCごとのクエストページ</p>
-            </div>
-            */}
+            {/*<div className="card">*/}
+            {/*    <h1 className="h1">現在のクエストリスト</h1>*/}
+            {/*</div>*/}
 
-            <div className="card">
-                <div className="questGrid">
-                    {npcQuests.map((q) => (
-                        <Link key={q.slug} href={`/quests/${q.slug}`} className="questCard">
-                            <div style={{ position: "relative", width: "100%", height: "100%" }}>
+            <div className="card questNpcSelectBar">
+                <label htmlFor="npc-select" className="questNpcSelectLabel">
+                    NPC選択
+                </label>
+                <select
+                    id="npc-select"
+                    className="questNpcSelect"
+                    value={selectedNpc.slug}
+                    onChange={(e) => handleSelectNpcBySlug(e.target.value)}
+                >
+                    {npcGroups.map((npc) => (
+                        <option key={npc.slug} value={npc.slug}>
+                            {npc.name}
+                        </option>
+                    ))}
+                </select>
+            </div>
+
+            <div className="card questBoard">
+                <aside className="questSidebar">
+                    <div className="questSidebarCurrentNpc">{selectedNpc.name}</div>
+
+                    <div className="questList">
+                        {selectedNpc.quests.length > 0 ? (
+                            selectedNpc.quests.map((quest) => (
+                                <button
+                                    key={quest.id}
+                                    className={`questListItem ${selectedQuest?.id === quest.id ? "active" : ""}`}
+                                    onClick={() => setSelectedQuestId(quest.id)}
+                                >
+                                    <span className="questListItemTitle">{quest.title}</span>
+                                    <span className="questListItemMeta">
+                                        {quest.repeatable ? "∞" : ""}
+                                    </span>
+                                </button>
+                            ))
+                        ) : (
+                            <div className="muted" style={{ padding: "12px 14px" }}>
+                                クエスト未登録
+                            </div>
+                        )}
+                    </div>
+                </aside>
+
+                <section className="questDetailPane">
+                    <div className="questDetailTop">
+                        <div className="questNpcCard">
+                            <div className="questNpcImageWrap">
                                 <Image
-                                    src={q.image}
-                                    alt={q.name}
+                                    src={selectedNpc.image}
+                                    alt={selectedNpc.name}
                                     fill
-                                    className="questImage"
+                                    className="questNpcImage"
                                 />
                             </div>
+                        </div>
 
-                            <div className="questOverlay">
-                                <div className="questTitle">{q.name}</div>
-                            </div>
-                        </Link>
-                    ))}
-                </div>
+                        <div className="questDescription">
+                            <h2 className="questDetailTitle">
+                                {selectedQuest?.title ?? selectedNpc.name}
+                            </h2>
+                            <p>{selectedQuest?.description ?? selectedNpc.description}</p>
+                        </div>
+                    </div>
+
+                    {!selectedQuest ? (
+                        <div className="questSection">
+                            <div className="questSectionTitle">詳細</div>
+                            <p className="muted">このNPCのクエストはまだ登録されていません。</p>
+                        </div>
+                    ) : (
+                        <>
+                            {(selectedQuest.rewards?.length ?? 0) > 0 ? (
+                                <div className="questSection">
+                                    <div className="questSectionTitle">報酬</div>
+                                    <div className="questItemGrid">
+                                        {selectedQuest.rewards?.map((item) => (
+                                            <div key={`${item.name}-${item.count}`} className="questItemCard">
+                                                <div className="questItemImageWrap">
+                                                    <Image
+                                                        src={item.image}
+                                                        alt={item.name}
+                                                        fill
+                                                        className="questItemImage"
+                                                    />
+                                                </div>
+                                            </div>
+                                        ))}
+                                    </div>
+                                </div>
+                            ) : null}
+
+                            {(selectedQuest.requiredItems?.length ?? 0) > 0 ? (
+                                <div className="questSection">
+                                    <div className="questSectionTitle">必要アイテム</div>
+                                    <div className="questItemGrid">
+                                        {selectedQuest.requiredItems?.map((item) => (
+                                            <div key={`${item.name}-${item.count}`} className="questItemCard">
+                                                <div className="questItemImageWrap">
+                                                    <Image
+                                                        src={item.image}
+                                                        alt={item.name}
+                                                        fill
+                                                        className="questItemImage"
+                                                    />
+                                                </div>
+                                                <div className="questItemName">{item.name}</div>
+                                                <div className="questItemCount">{item.count}</div>
+                                            </div>
+                                        ))}
+                                    </div>
+                                </div>
+                            ) : null}
+
+                            {(selectedQuest.objectives?.length ?? 0) > 0 ? (
+                                <div className="questSection">
+                                    {/*<div className="questSectionTitle">進行条件</div>*/}
+                                        <div className="questObjectives">
+                                            {selectedQuest.objectives?.map((obj) => (
+                                                <div key={obj.label} className="questObjectiveRow">
+
+                                                    <div className="questObjectiveLabel">
+                                                        {obj.label}
+                                                    </div>
+
+                                                    <div className="questObjectiveProgress">
+                                                        {obj.current} / {obj.target}
+                                                    </div>
+
+                                                </div>
+                                            ))}
+                                        </div>                                </div>
+                            ) : null}
+
+                            {(selectedQuest.notes?.length ?? 0) > 0 ? (
+                                <div className="questSection">
+                                    {/*<div className="questSectionTitle">備考</div>*/}
+                                    <ul className="questNotes">
+                                        {selectedQuest.notes?.map((note) => (
+                                            <li key={note}>{note}</li>
+                                        ))}
+                                    </ul>
+                                </div>
+                            ) : null}
+                        </>
+                    )}
+                </section>
             </div>
         </div>
     );
