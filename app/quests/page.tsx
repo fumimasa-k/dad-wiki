@@ -2,7 +2,7 @@
 
 import { useMemo, useState } from "react";
 import Image from "next/image";
-import questsData from "@/data/quests.json";
+import { getAllNpcQuestGroups } from "@/lib/quests";
 
 type ItemInfo = {
     name: string;
@@ -62,8 +62,8 @@ function normalizeNpcData(data: RawNpcQuestGroup[]): NpcQuestGroup[] {
     }));
 }
 
-export default function QuestsPage() {
-    const npcGroups = normalizeNpcData(questsData as RawNpcQuestGroup[]);
+export default function QuestsPage() {getAllNpcQuestGroups 
+    const npcGroups = getAllNpcQuestGroups();
 
     const firstNpcWithQuest =
         npcGroups.find((npc) => npc.quests.length > 0) ?? npcGroups[0];
