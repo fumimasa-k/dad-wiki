@@ -1,5 +1,5 @@
-import fs from "node:fs";
-import path from "node:path";
+import fs from "fs";
+import path from "path";
 import Papa from "papaparse";
 import npcList from "@/data/quests/npcs.json";
 
@@ -58,7 +58,7 @@ type NpcMeta = {
 const QUESTS_DIR = path.join(process.cwd(), "data", "quests");
 
 function parseBoolean(value?: string): boolean {
-    return String(value).trim().toLowerCase() === "true";
+    return String(value ?? "").trim().toLowerCase() === "true";
 }
 
 function parseItems(value?: string): ItemInfo[] {
@@ -98,10 +98,7 @@ function parseObjectives(value?: string): Objective[] {
 
 function parseNotes(value?: string): string[] {
     if (!value?.trim()) return [];
-    return value
-        .split("|")
-        .map((part) => part.trim())
-        .filter(Boolean);
+    return value.split("|").map((part) => part.trim()).filter(Boolean);
 }
 
 function readNpcCsv(slug: string): QuestInfo[] {
@@ -114,17 +111,19 @@ function readNpcCsv(slug: string): QuestInfo[] {
         skipEmptyLines: true,
     });
 
-    return parsed.data.map((row) => ({
-        id: row.id,
-        title: row.title,
-        description: row.description?.trim() || "",
-        type: row.type?.trim() || "",
-        repeatable: parseBoolean(row.repeatable),
-        rewards: parseItems(row.rewards),
-        requiredItems: parseItems(row.requiredItems),
-        objectives: parseObjectives(row.objectives),
-        notes: parseNotes(row.notes),
-    }));
+    return parsed.data
+        .filter((row) => row.id && row.title)
+        .map((row) => ({
+            id: row.id,
+            title: row.title,
+            description: row.description?.trim() || "",
+            type: row.type?.trim() || "",
+            repeatable: parseBoolean(row.repeatable),
+            rewards: parseItems(row.rewards),
+            requiredItems: parseItems(row.requiredItems),
+            objectives: parseObjectives(row.objectives),
+            notes: parseNotes(row.notes),
+        }));
 }
 
 export function getAllNpcQuestGroups(): NpcQuestGroup[] {
@@ -141,4 +140,8 @@ export function getAllNpcQuestGroups(): NpcQuestGroup[] {
 
 export function getNpcQuestGroupBySlug(slug: string): NpcQuestGroup | undefined {
     return getAllNpcQuestGroups().find((npc) => npc.slug === slug);
+}
+
+export function getQuestBySlug(slug: string): NpcQuestGroup | undefined {
+    return getNpcQuestGroupBySlug(slug);
 }
