@@ -2,6 +2,7 @@ import fs from "fs";
 import path from "path";
 import Papa from "papaparse";
 import npcList from "@/data/quests/npcs.json";
+import { ITEM_IMAGES } from "./itemImages";
 
 export type ItemInfo = {
     name: string;
@@ -69,10 +70,11 @@ function parseItems(value?: string): ItemInfo[] {
         .map((part) => part.trim())
         .filter(Boolean)
         .map((part) => {
-            const [name = "", image = "", count = "1"] = part.split(":");
+            const [name = "", imageKey = "", count = "1"] = part.split(":");
+
             return {
                 name: name.trim(),
-                image: image.trim(),
+                image: ITEM_IMAGES[imageKey.trim()] ?? "",
                 count: Number(count) || 1,
             };
         });
