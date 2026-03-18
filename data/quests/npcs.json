@@ -1,0 +1,122 @@
+[
+  {
+    "slug": "Alchemist",
+    "name": "錬金術師",
+    "image": "/quests/Alchemist.jpg",
+    "description": "錬金術師のクエスト一覧"
+  },
+  {
+    "slug": "Surgeon",
+    "name": "外科医",
+    "image": "/quests/Surgeon.jpg",
+    "description": "外科医のクエスト一覧"
+  },
+  {
+    "slug": "Collector",
+    "name": "コレクター",
+    "image": "/quests/Collector.jpg",
+    "description": "コレクターのクエスト一覧"
+  },
+  {
+    "slug": "Squire",
+    "name": "従者",
+    "image": "/quests/Squire.jpg",
+    "description": "従者のクエスト一覧"
+  },
+  {
+    "slug": "Tavern-Master",
+    "name": "酒場の亭主",
+    "image": "/quests/Tavern-Master.jpg",
+    "description": "酒場の亭主のクエスト一覧"
+  },
+  {
+    "slug": "Goblin-Merchant",
+    "name": "ゴブリン商人",
+    "image": "/quests/Goblin-Merchant.jpg",
+    "description": "ゴブリン商人のクエスト一覧"
+  },
+  {
+    "slug": "Armourer",
+    "name": "防具職人",
+    "image": "/quests/Armourer.jpg",
+    "description": "防具職人のクエスト一覧"
+  },
+  {
+    "slug": "Weaponsmith",
+    "name": "武器職人",
+    "image": "/quests/Weaponsmith.jpg",
+    "description": "武器職人のクエスト一覧"
+  },
+  {
+    "slug": "Woodsman",
+    "name": "狩人",
+    "image": "/quests/Woodsman.jpg",
+    "description": "狩人のクエスト一覧"
+  },
+  {
+    "slug": "Tailor",
+    "name": "裁縫師",
+    "image": "/quests/Tailor.jpg",
+    "description": "裁縫師のクエスト一覧"
+  },
+  {
+    "slug": "Leathersmith",
+    "name": "皮職人",
+    "image": "/quests/Leathersmith.jpg",
+    "description": "皮職人のクエスト一覧"
+  },
+  {
+    "slug": "Treasurer",
+    "name": "会計士",
+    "image": "/quests/Treasurer.jpg",
+    "description": "会計士のクエスト一覧"
+  },
+  {
+    "slug": "Huntress",
+    "name": "女狩人",
+    "image": "/quests/Huntress.jpg",
+    "description": "女狩人のクエスト一覧"
+  },
+  {
+    "slug": "Goldsmith",
+    "name": "金細工師",
+    "image": "/quests/Goldsmith.jpg",
+    "description": "金細工師のクエスト一覧"
+  },
+  {
+    "slug": "Fortune-Teller",
+    "name": "占い師",
+    "image": "/quests/Fortune-Teller.jpg",
+    "description": "占い師のクエスト一覧"
+  },
+  {
+    "slug": "Navigator",
+    "name": "ナビゲーター",
+    "image": "/quests/Navigator.jpg",
+    "description": "ナビゲーターのクエスト一覧"
+  },
+  {
+    "slug": "Miner",
+    "name": "鉱夫",
+    "image": "/quests/Miner.jpg",
+    "description": "鉱夫のクエスト一覧"
+  },
+  {
+    "slug": "Dealmaker",
+    "name": "ディールメーカー",
+    "image": "/quests/Dealmaker.jpg",
+    "description": "ディールメーカーのクエスト一覧"
+  },
+  {
+    "slug": "Valentine",
+    "name": "バレンタイン",
+    "image": "/quests/Valentine.jpg",
+    "description": "バレンタインのクエスト一覧"
+  },
+  {
+    "slug": "Cockatrice",
+    "name": "コカトリス",
+    "image": "/quests/Cockatrice.jpg",
+    "description": "コカトリスのクエスト一覧"
+  }
+]

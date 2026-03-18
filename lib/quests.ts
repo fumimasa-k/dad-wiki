@@ -134,7 +134,7 @@ export function getAllNpcQuestGroups(): NpcQuestGroup[] {
         slug: npc.slug,
         name: npc.name,
         image: npc.image,
-        description: npc.description ?? `${npc.name}のクエスト一覧。`,
+        description: npc.description ?? `${npc.name}縺ｮ繧ｯ繧ｨ繧ｹ繝井ｸ隕ｧ縲Ａ,
         quests: readNpcCsv(npc.slug),
     }));
 }
