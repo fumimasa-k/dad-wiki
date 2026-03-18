@@ -1,0 +1,26 @@
+{
+  "gold": {
+    "name": "金貨",
+    "image": "/items/gold.png"
+  },
+  "flower": {
+    "name": "花",
+    "image": "/items/flower.png"
+  },
+  "purpleCloth": {
+    "name": "紫の服",
+    "image": "/items/purple-cloth.png"
+  },
+  "wolfPelt": {
+    "name": "狼の毛皮",
+    "image": "/items/wolf-pelt.png"
+  },
+  "gem": {
+    "name": "宝石",
+    "image": "/items/gem.png"
+  },
+  "deerAntler": {
+    "name": "鹿の角",
+    "image": "/items/deer-antler.png"
+  }
+}

@@ -2,9 +2,10 @@ import fs from "fs";
 import path from "path";
 import Papa from "papaparse";
 import npcList from "@/data/quests/npcs.json";
-import { ITEM_IMAGES } from "./itemImages";
+import { getItemMaster } from "@/lib/items";
 
 export type ItemInfo = {
+    id: string;
     name: string;
     image: string;
     count: number;
@@ -23,10 +24,10 @@ export type QuestInfo = {
     description?: string;
     type: string;
     repeatable?: boolean;
-    rewards?: ItemInfo[];
-    requiredItems?: ItemInfo[];
-    objectives?: Objective[];
-    notes?: string[];
+    rewards: ItemInfo[];
+    requiredItems: ItemInfo[];
+    objectives: Objective[];
+    notes: string[];
 };
 
 export type NpcQuestGroup = {
@@ -43,8 +44,8 @@ type CsvQuestRow = {
     description?: string;
     type?: string;
     repeatable?: string;
-    rewards?: string;
     requiredItems?: string;
+    rewards?: string;
     objectives?: string;
     notes?: string;
 };
@@ -65,17 +66,24 @@ function parseBoolean(value?: string): boolean {
 function parseItems(value?: string): ItemInfo[] {
     if (!value?.trim()) return [];
 
+    const itemMaster = getItemMaster();
+
     return value
         .split("|")
         .map((part) => part.trim())
         .filter(Boolean)
         .map((part) => {
-            const [name = "", imageKey = "", count = "1"] = part.split(":");
+            const [itemIdRaw = "", countRaw = "1"] = part.split("*");
+            const itemId = itemIdRaw.trim();
+            const count = Number(countRaw) || 1;
+
+            const master = itemMaster[itemId];
 
             return {
-                name: name.trim(),
-                image: ITEM_IMAGES[imageKey.trim()] ?? "",
-                count: Number(count) || 1,
+                id: itemId,
+                name: master?.name ?? itemId,
+                image: master?.image ?? "",
+                count,
             };
         });
 }
@@ -89,6 +97,7 @@ function parseObjectives(value?: string): Objective[] {
         .filter(Boolean)
         .map((part) => {
             const [label = "", current = "0", target = "0", done = "false"] = part.split(":");
+
             return {
                 label: label.trim(),
                 current: Number(current) || 0,
@@ -100,7 +109,11 @@ function parseObjectives(value?: string): Objective[] {
 
 function parseNotes(value?: string): string[] {
     if (!value?.trim()) return [];
-    return value.split("|").map((part) => part.trim()).filter(Boolean);
+
+    return value
+        .split("|")
+        .map((part) => part.trim())
+        .filter(Boolean);
 }
 
 function readNpcCsv(slug: string): QuestInfo[] {
@@ -121,8 +134,8 @@ function readNpcCsv(slug: string): QuestInfo[] {
             description: row.description?.trim() || "",
             type: row.type?.trim() || "",
             repeatable: parseBoolean(row.repeatable),
-            rewards: parseItems(row.rewards),
             requiredItems: parseItems(row.requiredItems),
+            rewards: parseItems(row.rewards),
             objectives: parseObjectives(row.objectives),
             notes: parseNotes(row.notes),
         }));
