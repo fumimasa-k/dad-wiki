@@ -141,7 +141,3 @@ export function getAllNpcQuestGroups(): NpcQuestGroup[] {
 export function getNpcQuestGroupBySlug(slug: string): NpcQuestGroup | undefined {
     return getAllNpcQuestGroups().find((npc) => npc.slug === slug);
 }
-
-export function getQuestBySlug(slug: string): NpcQuestGroup | undefined {
-    return getNpcQuestGroupBySlug(slug);
-}
