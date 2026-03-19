@@ -159,7 +159,7 @@ export default function QuestsClient({
 
                             {(selectedQuest.requiredItems?.length ?? 0) > 0 ? (
                                 <div className="questSection">
-                                    <div className="questSectionTitle">必要アイテム</div>
+                                    <div className="questSectionTitle">商人からのリクエスト</div>
                                     <div className="questItemGrid">
                                         {selectedQuest.requiredItems?.map((item) => (
                                             <div key={`${item.name}-${item.count}`} className="questItemCard">
