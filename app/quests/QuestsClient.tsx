@@ -61,9 +61,9 @@ export default function QuestsClient({
 
     return (
         <div className="grid" style={{ gap: 16 }}>
-            <div className="card">
-                <h1 className="h1">現在のクエストリスト</h1>
-            </div>
+            {/*<div className="card">*/}
+            {/*    <h1 className="h1">現在のクエストリスト</h1>*/}
+            {/*</div>*/}
 
             <div className="card questNpcSelectBar">
                 <label htmlFor="npc-select" className="questNpcSelectLabel">
