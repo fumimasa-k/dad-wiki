@@ -1,7 +1,83 @@
 {
-  "gold": {
+  "exp": {
+    "name": "経験値",
+    "image": "/items/exp.png"
+  },
+  "goldCoin": {
     "name": "金貨",
-    "image": "/items/gold.png"
+    "image": "/items/gold-coin.png"
+  },
+  "goldCoinPouch": {
+    "name": "金貨ポーチ",
+    "image": "/items/gold-coin-pouch.png"
+  },
+  "goldCoinBag": {
+    "name": "金貨袋",
+    "image": "/items/gold-coin-bag.png"
+  },
+  "epicArmor": {
+    "name": "エピック防具",
+    "image": "/items/epic-armor.png"
+  },
+  "epicWeapon": {
+    "name": "エピック武器",
+    "image": "/items/epic-weapon.png"
+  },
+  "rareArmor": {
+    "name": "レア防具",
+    "image": "/items/rare-armor.png"
+  },
+  "rareWeapon": {
+    "name": "レア武器",
+    "image": "/items/rare-weapon.png"
+  },
+  "uncommonArmor": {
+    "name": "アンコモン防具",
+    "image": "/items/uncommon-armor.png"
+  },
+  "uncommonWeapon": {
+    "name": "アンコモン武器",
+    "image": "/items/uncommon-weapon.png"
+  },
+  "commonArmor": {
+    "name": "コモン防具",
+    "image": "/items/common-armor.png"
+  },
+  "commonWeapon": {
+    "name": "コモン武器",
+    "image": "/items/common-weapon.png"
+  },
+  "arcaneEssence": {
+    "name": "アーケインエッセンス",
+    "image": "/items/arcane-essence.png"
+  },
+  "brokenSkull": {
+    "name": "ひび割れた頭蓋骨",
+    "image": "/items/broken-skull.png"
+  },
+  "graveEssence": {
+    "name": "墓場の土",
+    "image": "/items/grave-essence.png"
+  },
+  "maggots": {
+    "name": "うじ虫",
+    "image": "/items/maggots.png"
+  },
+  "lifeleaf": {
+    "name": "生命の葉",
+    "image": "/items/lifeleaf.png"
+  },
+  "phantomFlower": {
+    "name": "幻想の花",
+    "image": "/items/phantom-flower.png"
+  },
+  "blackRose": {
+    "name": "黒いバラ",
+    "image": "/items/black-rose.png"
+  },
+  "heratCandy": {
+    "name": "ハートキャンディ",
+    "image": "/items/herat-candy.png"
   },
   "flower": {
     "name": "花",
@@ -10,17 +86,5 @@
   "purpleCloth": {
     "name": "紫の服",
     "image": "/items/purple-cloth.png"
-  },
-  "wolfPelt": {
-    "name": "狼の毛皮",
-    "image": "/items/wolf-pelt.png"
-  },
-  "gem": {
-    "name": "宝石",
-    "image": "/items/gem.png"
-  },
-  "deerAntler": {
-    "name": "鹿の角",
-    "image": "/items/deer-antler.png"
   }
 }
