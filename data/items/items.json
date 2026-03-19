@@ -83,6 +83,30 @@
     "name": "ハートキャンディ",
     "image": "/items/herat-candy.png"
   },
+  "hardened-shell-fragment": {
+    "name": "硬化した甲羅の欠片",
+    "image": "/items/hardened-shell-fragment.png"
+  },
+  "magma-essence": {
+    "name": "マグマエッセンス",
+    "image": "/items/magma-essence.png"
+  },
+  "flickering-ember": {
+    "name": "揺らめく残り火",
+    "image": "/items/flickering-ember.png"
+  },
+  "potion-of-healing": {
+    "name": "回復ポーション",
+    "image": "/items/potion-of-healing.png"
+  },
+  "potion-of-invisibility": {
+    "name": "透明化ポーション",
+    "image": "/items/potion-of-invisibility.png"
+  },
+  "potion-of-protection": {
+    "name": "物理保護ポーション",
+    "image": "/items/potion-of-protection.png"
+  },
   "flower": {
     "name": "花",
     "image": "/items/flower.png"
