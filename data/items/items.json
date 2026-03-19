@@ -3,59 +3,59 @@
     "name": "経験値",
     "image": "/items/exp.png"
   },
-  "goldCoin": {
+  "gold-coin": {
     "name": "金貨",
     "image": "/items/gold-coin.png"
   },
-  "goldCoinPouch": {
+  "gold-coin-pouch": {
     "name": "金貨ポーチ",
     "image": "/items/gold-coin-pouch.png"
   },
-  "goldCoinBag": {
+  "gold-coin-bag": {
     "name": "金貨袋",
     "image": "/items/gold-coin-bag.png"
   },
-  "epicArmor": {
+  "epic-armor": {
     "name": "エピック防具",
     "image": "/items/epic-armor.png"
   },
-  "epicWeapon": {
+  "epic-weapon": {
     "name": "エピック武器",
     "image": "/items/epic-weapon.png"
   },
-  "rareArmor": {
+  "rare-armor": {
     "name": "レア防具",
     "image": "/items/rare-armor.png"
   },
-  "rareWeapon": {
+  "rare-weapon": {
     "name": "レア武器",
     "image": "/items/rare-weapon.png"
   },
-  "uncommonArmor": {
+  "uncommon-armor": {
     "name": "アンコモン防具",
     "image": "/items/uncommon-armor.png"
   },
-  "uncommonWeapon": {
+  "uncommon-weapon": {
     "name": "アンコモン武器",
     "image": "/items/uncommon-weapon.png"
   },
-  "commonArmor": {
+  "common-armor": {
     "name": "コモン防具",
     "image": "/items/common-armor.png"
   },
-  "commonWeapon": {
+  "common-aeapon": {
     "name": "コモン武器",
     "image": "/items/common-weapon.png"
   },
-  "arcaneEssence": {
+  "arcane-essence": {
     "name": "アーケインエッセンス",
     "image": "/items/arcane-essence.png"
   },
-  "brokenSkull": {
+  "broken-skull": {
     "name": "ひび割れた頭蓋骨",
     "image": "/items/broken-skull.png"
   },
-  "graveEssence": {
+  "grave-essence": {
     "name": "墓場の土",
     "image": "/items/grave-essence.png"
   },
@@ -67,15 +67,15 @@
     "name": "生命の葉",
     "image": "/items/lifeleaf.png"
   },
-  "phantomFlower": {
+  "phantom-flower": {
     "name": "幻想の花",
     "image": "/items/phantom-flower.png"
   },
-  "blackRose": {
+  "black-rose": {
     "name": "黒いバラ",
     "image": "/items/black-rose.png"
   },
-  "heratCandy": {
+  "herat-candy": {
     "name": "ハートキャンディ",
     "image": "/items/herat-candy.png"
   },
@@ -83,7 +83,7 @@
     "name": "花",
     "image": "/items/flower.png"
   },
-  "purpleCloth": {
+  "purple-cloth": {
     "name": "紫の服",
     "image": "/items/purple-cloth.png"
   }
