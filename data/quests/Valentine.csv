@@ -1,7 +1,7 @@
 id,title,description,type,repeatable,rewards,requiredItems,objectives,notes
-valentine-q1,愛のための排除,愛の季節が到来いたしました…しかしながら、大気はいまだ死の気配に満ちております。,討伐,TRUE,黒バラ:black-rose:1|エピック防具:epic-armor:1,,ゴブリンキル数:0:10:false|コボルトキル数:0:10:false|スケルトンキル数:10:10:true,ダンジョンタイプ:すべて
-valentine-q2,先陣を切れ,先陣を切り脅威を排除してください。,討伐,TRUE,キャンディ:herat-candy:1|エピック防具:epic-armor:1,,敵を倒す:0:5:false,
-valentine-q3,疫病の監視,感染源の拡大を監視し報告してください。,監視,TRUE,キャンディ:herat-candy:1|エピック武器:epic-weapon:1,,監視対象を確認:0:1:false,
+valentine-q1,愛のための排除,愛の季節が到来いたしました…しかしながら、大気はいまだ死の気配に満ちております。,討伐,TRUE,黒バラ:black-rose:1|エピック防具:epic-armor:1,,ゴブリンキル数:0:10:false|コボルトキル数:0:10:false|スケルトンキル数:0:10:false,ダンジョンタイプ:すべて
+valentine-q2,先陣を切れ,先陣を切り脅威を排除してください。,討伐,TRUE,キャンディ:herat-candy:1|エピック防具:epic-armor:1,,巨大ムカデキル数:0:1:false|スケルトン・チャンピオンキル数:0:1:false|イエティキル数:0:1:false,
+valentine-q3,疫病の監視,感染源の拡大を監視し報告してください。,脱出,TRUE,キャンディ:herat-candy:1|エピック武器:epic-weapon:1,,ゴブリン洞窟で生き残る:0:1:false|忘れられた城で生き残る:0:1:false|氷晶洞窟で生き残る:0:1:false,
 valentine-q4,愛への第一歩,決して大きな報酬ではございませんが、この疫病を食い止めるために引き続きご尽力いただけるのであれば、必ずより良い形でお礼ができるよう手立てを考えましょう。,納品,FALSE,金貨ポーチ:gold-coin-pouch:1,,黒いバラ:black-rose:1,
 valentine-q5,すべてを賭けて,決して容易な務めではなかったことと存じます。ささやかな品ではございますが、この報酬があなた様の心を少しでも慰めるものとなれば幸いです。決して諦めさえしなければ私たちは必ずこの試練を乗り越えられることでしょう。,納品,FALSE,金貨袋:gold-coin-bag:1,,黒いバラ:black-rose:3,
 valentine-q6,愛をもたらす者,あなた様のご尽力により、愛の均衡を取り戻すための先導がなされました。あなたはまさに愛をもたらす者なのです。これまでのすべてのご功績に報いるには足りませぬが、どうかこの贈り物をお受け取りください。,納品,FALSE,金貨袋:gold-coin-bag:3,,黒いバラ:black-rose:10,
