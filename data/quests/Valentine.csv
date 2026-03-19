@@ -1,4 +1,4 @@
 id,title,description,type,repeatable,rewards,requiredItems,objectives,notes
-valentine-q1,愛のための排除,愛の季節が到来いたしました…しかしながら、大気はいまだ死の気配に満ちております。,討伐,TRUE,花:/items/flower.png:1|紫の服:/items/purple-cloth.png:1,,ゴブリンキル数:0:10:false|コボルトキル数:0:10:false|スケルトンキル数:10:10:true,ダンジョンタイプ:すべて
+valentine-q1,愛のための排除,愛の季節が到来いたしました…しかしながら、大気はいまだ死の気配に満ちております。,討伐,TRUE,花:flower:1|紫の服:purple-cloth:1,,ゴブリンキル数:0:10:false|コボルトキル数:0:10:false|スケルトンキル数:10:10:true,ダンジョンタイプ:すべて
 valentine-q2,先陣を切れ,先陣を切り脅威を排除してください。,討伐,TRUE,,,敵を倒す:0:5:false,
 valentine-q3,疫病の監視,感染源の拡大を監視し報告してください。,監視,FALSE,,,監視対象を確認:0:1:false,
