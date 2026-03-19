@@ -71,6 +71,10 @@
     "name": "幻想の花",
     "image": "/items/phantom-flower.png"
   },
+  "wardweed": {
+    "name": "監房のハーブ",
+    "image": "/items/wardweed.png"
+  },
   "black-rose": {
     "name": "黒いバラ",
     "image": "/items/black-rose.png"
