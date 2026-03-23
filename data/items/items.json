@@ -107,6 +107,42 @@
     "name": "物理保護ポーション",
     "image": "/items/potion-of-protection.png"
   },
+  "surgical-kit": {
+    "name": "医療キット",
+    "image": "/items/surgical-kit.png"
+  },
+  "bandage": {
+    "name": "包帯",
+    "image": "/items/bandage.png"
+  },
+  "explosive-bottle": {
+    "name": "火炎瓶",
+    "image": "/items/explosive-bottle.png"
+  },
+  "giant-toe": {
+    "name": "巨人の足指",
+    "image": "/items/giant-toe.png"
+  },
+  "moldy-bread": {
+    "name": "カビたパン",
+    "image": "/items/moldy-bread.png"
+  },
+  "enchanted-dark-fabric ": {
+    "name": "闇で染められた織物",
+    "image": "/items/enchanted-dark-fabric.png\""
+  },
+  "old-bloody-bandage": {
+    "name": "古い血まみれの包帯",
+    "image": "/items/old-bloody-bandage.png"
+  },
+  "old-cloth": {
+    "name": "古い布",
+    "image": "/items/old-cloth.png"
+  },
+  "spectral-fabric": {
+    "name": "霊幻生地",
+    "image": "/items/spectral-fabric.png"
+  },
   "flower": {
     "name": "花",
     "image": "/items/flower.png"
