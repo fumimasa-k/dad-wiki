@@ -133,7 +133,7 @@
   },
   "enchanted-dark-fabric": {
     "name": "闇で染められた織物",
-    "image": "/items/enchanted-dark-fabric.png\""
+    "image": "/items/enchanted-dark-fabric.png"
   },
   "old-bloody-bandage": {
     "name": "古い血まみれの包帯",
@@ -146,6 +146,70 @@
   "spectral-fabric": {
     "name": "霊幻生地",
     "image": "/items/spectral-fabric.png"
+  },
+  "ancient-scroll": {
+    "name": "古代のスクロール",
+    "image": "/items/ancient-scroll.png"
+  },
+  "gold-waterpot": {
+    "name": "ゴールドポット",
+    "image": "/items/gold-waterpot.png"
+  },
+  "gold-candelabra": {
+    "name": "金の燭台",
+    "image": "/items/gold-candelabra.png"
+  },
+  "gold-candle-holder": {
+    "name": "金の蠟燭立て",
+    "image": "/items/gold-candle-holder.png"
+  },
+  "gold-bowl": {
+    "name": "ゴールド・ボウル",
+    "image": "/items/gold-bowl.png"
+  },
+  "wooden-mask": {
+    "name": "木製の仮面",
+    "image": "/items/wooden-mask.png"
+  },
+  "shackles": {
+    "name": "手錠",
+    "image": "/items/shackles.png"
+  },
+  "bone": {
+    "name": "骨",
+    "image": "/items/bone.png"
+  },
+  "wolf-fang": {
+    "name": "オオカミの牙",
+    "image": "/items/wolf-fang.png"
+  },
+  "wolf-claw": {
+    "name": "オオカミの爪",
+    "image": "/items/wolf-claw.png"
+  },
+  "extra-thick-pelt": {
+    "name": "厚みのある毛皮",
+    "image": "/items/extra-thick-pelt.png"
+  },
+  "mermaid-scale": {
+    "name": "人魚の鱗",
+    "image": "/items/mermaid-scale.png"
+  },
+  "mermaid's-tear": {
+    "name": "人魚の涙",
+    "image": "/items/mermaid's-tear.png"
+  },
+  "frosted-feather": {
+    "name": "凍った羽根",
+    "image": "/items/frosted-feather.png"
+  },
+  "yeti's-teeth": {
+    "name": "イエティの歯",
+    "image": "/items/yeti's-teeth.png"
+  },
+  "ale": {
+    "name": "エール",
+    "image": "/items/ale.png"
   },
   "flower": {
     "name": "花",
