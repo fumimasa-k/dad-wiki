@@ -127,7 +127,7 @@
     "name": "カビたパン",
     "image": "/items/moldy-bread.png"
   },
-  "enchanted-dark-fabric ": {
+  "enchanted-dark-fabric": {
     "name": "闇で染められた織物",
     "image": "/items/enchanted-dark-fabric.png\""
   },
