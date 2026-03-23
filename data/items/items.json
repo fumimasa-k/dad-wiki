@@ -107,6 +107,10 @@
     "name": "物理保護ポーション",
     "image": "/items/potion-of-protection.png"
   },
+  "magic-protection-potion": {
+    "name": "魔法保護ポーション",
+    "image": "/items/magic-protection-potion.png"
+  },
   "surgical-kit": {
     "name": "医療キット",
     "image": "/items/surgical-kit.png"
