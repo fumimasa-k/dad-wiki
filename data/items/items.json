@@ -255,6 +255,34 @@
     "name": "倉庫",
     "image": "/items/stash.png"
   },
+  "goblin-ear": {
+    "name": "ゴブリンの耳",
+    "image": "/items/goblin-ear.png"
+  },
+  "bug-shell": {
+    "name": "甲虫の甲殻",
+    "image": "/items/bug-shell.png"
+  },
+  "blazing-tail": {
+    "name": "燃え盛る尾",
+    "image": "/items/blazing-tail.png"
+  },
+  "lava-mushroom": {
+    "name": "溶岩キノコ",
+    "image": "/items/lava-mushroom.png"
+  },
+  "cockatrice's-lucky-feather": {
+    "name": "コカトリスの幸運羽根",
+    "image": "/items/cockatrice's-lucky-feather.png"
+  },
+  "cave-trolls-precious-rock": {
+    "name": "洞窟トロールの貴重な岩",
+    "image": "/items/cave-trolls-precious-rock.png"
+  },
+  "cyclops-precious-mirror": {
+    "name": "サイクロプスの貴重な鏡",
+    "image": "/items/cyclops-precious-mirror.png"
+  },
   "flower": {
     "name": "花",
     "image": "/items/flower.png"
