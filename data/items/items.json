@@ -215,6 +215,46 @@
     "name": "アンコモンアクセサリ",
     "image": "/items/uncommon-accessory.png"
   },
+  "bone-powder": {
+    "name": "骨粉",
+    "image": "/items/bone-powder.png"
+  },
+  "campfire-kit": {
+    "name": "焚火キット",
+    "image": "/items/campfire-kit.png"
+  },
+  "ectoplasm": {
+    "name": "エクトプラズム",
+    "image": "/items/ectoplasm.png"
+  },
+  "flame-gas-bag": {
+    "name": "燃焼ガス袋",
+    "image": "/items/flame-gas-bag.png"
+  },
+  "frozen-claw": {
+    "name": "凍った爪",
+    "image": "/items/frozen-claw.png"
+  },
+  "intact-skull": {
+    "name": "完璧な頭蓋骨",
+    "image": "/items/intact-skull.png"
+  },
+  "lukewarm-stew": {
+    "name": "ぬるいシチュー",
+    "image": "/items/lukewarm-stew.png"
+  },
+  "red-apple": {
+    "name": "赤いりんご",
+    "image": "/items/red-apple.png"
+  },
+  "rusty-broken-sword": {
+    "name": "錆びて壊れた剣",
+    "image": "/items/rusty-broken-sword.png"
+  },
+  "stash": {
+    "name": "倉庫",
+    "image": "/items/stash.png"
+  },
   "flower": {
     "name": "花",
     "image": "/items/flower.png"
