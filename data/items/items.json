@@ -211,6 +211,10 @@
     "name": "エール",
     "image": "/items/ale.png"
   },
+  "uncommon-accessory": {
+    "name": "アンコモンアクセサリ",
+    "image": "/items/uncommon-accessory.png"
+  },
   "flower": {
     "name": "花",
     "image": "/items/flower.png"
