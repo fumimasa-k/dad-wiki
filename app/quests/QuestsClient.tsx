@@ -23,13 +23,20 @@ export default function QuestsClient({
 
     const selectedQuest = useMemo(() => {
         if (!selectedNpc) return undefined;
-        if (!Array.isArray(selectedNpc.quests) || selectedNpc.quests.length === 0) return undefined;
-        return selectedNpc.quests.find((q) => q.id === selectedQuestId) ?? selectedNpc.quests[0];
+        if (!Array.isArray(selectedNpc.quests) || selectedNpc.quests.length === 0) {
+            return undefined;
+        }
+
+        return (
+            selectedNpc.quests.find((q) => q.id === selectedQuestId) ??
+            selectedNpc.quests[0]
+        );
     }, [selectedNpc, selectedQuestId]);
 
     function handleSelectNpcBySlug(slug: string) {
         const npc = npcGroups.find((x) => x.slug === slug);
         if (!npc) return;
+
         setSelectedNpcSlug(npc.slug);
         setSelectedQuestId(npc.quests?.[0]?.id ?? "");
     }
@@ -87,25 +94,27 @@ export default function QuestsClient({
                 <aside className="questSidebar">
                     <div className="questSidebarCurrentNpc">{selectedNpc.name}</div>
 
-                    <div className="questList">
-                        {selectedNpc.quests.length > 0 ? (
-                            selectedNpc.quests.map((quest) => (
-                                <button
-                                    key={quest.id}
-                                    className={`questListItem ${selectedQuest?.id === quest.id ? "active" : ""}`}
-                                    onClick={() => setSelectedQuestId(quest.id)}
-                                >
-                                    <span className="questListItemTitle">{quest.title}</span>
-                                    <span className="questListItemMeta">
-                                        {quest.repeatable ? "∞" : ""}
-                                    </span>
-                                </button>
-                            ))
-                        ) : (
-                            <div className="muted" style={{ padding: "12px 14px" }}>
-                                クエスト未登録
-                            </div>
-                        )}
+                    <div className="questListScroll">
+                        <div className="questList">
+                            {selectedNpc.quests.length > 0 ? (
+                                selectedNpc.quests.map((quest) => (
+                                    <button
+                                        key={quest.id}
+                                        className={`questListItem ${selectedQuest?.id === quest.id ? "active" : ""}`}
+                                        onClick={() => setSelectedQuestId(quest.id)}
+                                    >
+                                        <span className="questListItemTitle">{quest.title}</span>
+                                        <span className="questListItemMeta">
+                                            {quest.repeatable ? "∞" : ""}
+                                        </span>
+                                    </button>
+                                ))
+                            ) : (
+                                <div className="muted" style={{ padding: "12px 14px" }}>
+                                    クエスト未登録
+                                </div>
+                            )}
+                        </div>
                     </div>
                 </aside>
 
@@ -113,12 +122,16 @@ export default function QuestsClient({
                     <div className="questDetailTop">
                         <div className="questNpcCard">
                             <div className="questNpcImageWrap">
-                                <Image
-                                    src={selectedNpc.image}
-                                    alt={selectedNpc.name}
-                                    fill
-                                    className="questNpcImage"
-                                />
+                                {selectedNpc.image ? (
+                                    <Image
+                                        src={selectedNpc.image}
+                                        alt={selectedNpc.name}
+                                        fill
+                                        className="questNpcImage"
+                                    />
+                                ) : (
+                                    <div className="questItemFallback">{selectedNpc.name}</div>
+                                )}
                             </div>
                         </div>
 
@@ -142,14 +155,18 @@ export default function QuestsClient({
                                     <div className="questSectionTitle">報酬</div>
                                     <div className="questItemGrid">
                                         {selectedQuest.rewards?.map((item) => (
-                                            <div key={`${item.name}-${item.count}`} className="questItemCard">
+                                            <div key={`${item.id}-${item.count}`} className="questItemCard">
                                                 <div className="questItemImageWrap">
-                                                    <Image
-                                                        src={item.image}
-                                                        alt={item.name}
-                                                        fill
-                                                        className="questItemImage"
-                                                    />
+                                                    {item.image ? (
+                                                        <Image
+                                                            src={item.image}
+                                                            alt={item.name}
+                                                            fill
+                                                            className="questItemImage"
+                                                        />
+                                                    ) : (
+                                                        <div className="questItemFallback">{item.name}</div>
+                                                    )}
                                                 </div>
                                             </div>
                                         ))}
@@ -159,17 +176,21 @@ export default function QuestsClient({
 
                             {(selectedQuest.requiredItems?.length ?? 0) > 0 ? (
                                 <div className="questSection">
-                                    <div className="questSectionTitle">商人からのリクエスト</div>
+                                    <div className="questSectionTitle">必要アイテム</div>
                                     <div className="questItemGrid">
                                         {selectedQuest.requiredItems?.map((item) => (
-                                            <div key={`${item.name}-${item.count}`} className="questItemCard">
+                                            <div key={`${item.id}-${item.count}`} className="questItemCard">
                                                 <div className="questItemImageWrap">
-                                                    <Image
-                                                        src={item.image}
-                                                        alt={item.name}
-                                                        fill
-                                                        className="questItemImage"
-                                                    />
+                                                    {item.image ? (
+                                                        <Image
+                                                            src={item.image}
+                                                            alt={item.name}
+                                                            fill
+                                                            className="questItemImage"
+                                                        />
+                                                    ) : (
+                                                        <div className="questItemFallback">{item.name}</div>
+                                                    )}
                                                 </div>
                                                 <div className="questItemName">{item.name}</div>
                                             </div>
