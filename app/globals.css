@@ -579,6 +579,18 @@ hr.sep {
     gap: 10px;
 }
 
+.questDetailPane {
+    padding: 12px 24px 20px 12px;
+    display: grid;
+    gap: 18px;
+    align-content: start;
+    align-self: stretch;
+    min-height: 0;
+    height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
 .questSidebarCurrentNpc {
     font-size: 20px;
     font-weight: 800;
@@ -670,16 +682,6 @@ hr.sep {
 .questListItemMeta {
     font-size: 24px;
     color: var(--muted);
-}
-
-.questDetailPane {
-    padding: 12px 24px 20px 12px;
-    display: grid;
-    gap: 18px;
-    align-content: start;
-    align-self: start;
-    min-height: 0;
-    overflow: hidden;
 }
 
 .questDetailTop {
@@ -855,6 +857,8 @@ hr.sep {
 
     .questDetailPane {
         padding-left: 0;
+        height: auto;
+        overflow: visible;
     }
 
     .questDetailTop {
@@ -921,4 +925,21 @@ hr.sep {
         width: 100%;
         min-width: 0;
     }
+}
+
+.questDetailPane::-webkit-scrollbar {
+    width: 10px;
+}
+
+.questDetailPane::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.04);
+    border-radius: 999px;
+}
+
+.questDetailPane::-webkit-scrollbar-thumb {
+    background: rgba(255, 183, 0, 0.35);
+    border-radius: 999px;
+}
+.questDetailPane::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 183, 0, 0.55);
 }
