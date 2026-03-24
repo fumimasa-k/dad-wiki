@@ -43,7 +43,7 @@
     "name": "コモン防具",
     "image": "/items/common-armor.png"
   },
-  "common-aeapon": {
+  "common-weapon": {
     "name": "コモン武器",
     "image": "/items/common-weapon.png"
   },
