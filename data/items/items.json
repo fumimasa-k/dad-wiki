@@ -1,5 +1,8 @@
 {
-  "特殊系": {},
+  "Special": {
+    "name": "特殊系",
+    "image": "/items/flower.png"
+  },
   "exp": {
     "name": "経験値",
     "image": "/items/exp.png"
@@ -10,7 +13,10 @@
   },
 
 
-  "金貨系": {},
+  "Gold": {
+    "name": "金貨系",
+    "image": "/items/flower.png"
+  },
   "gold-coin": {
     "name": "金貨",
     "image": "/items/gold-coin.png"
@@ -25,7 +31,10 @@
   },
 
 
-  "武器系": {},
+  "Weapon": {
+    "name": "武器系",
+    "image": "/items/flower.png"
+  },
   "unique-weapon": {
     "name": "ユニーク武器",
     "image": "/items/unique-weapon.png"
@@ -52,7 +61,10 @@
   },
 
 
-  "防具系": {},
+  "Armor": {
+    "name": "防具系",
+    "image": "/items/flower.png"
+  },
   "unique-armor": {
     "name": "ユニーク防具",
     "image": "/items/unique-armor.png"
@@ -79,7 +91,10 @@
   },
 
 
-  "アクセ系": {},
+  "Accessory": {
+    "name": "アクセ系",
+    "image": "/items/flower.png"
+  },
   "uncommon-accessory": {
     "name": "アンコモンアクセサリ",
     "image": "/items/uncommon-accessory.png"
@@ -90,7 +105,10 @@
   },
 
 
-  "回復・ポーション系": {},
+  "Healing-Potion": {
+    "name": "回復・ポーション系",
+    "image": "/items/flower.png"
+  },
   "potion-of-healing": {
     "name": "回復ポーション",
     "image": "/items/potion-of-healing.png"
@@ -117,7 +135,10 @@
   },
 
 
-  "ハーブ系": {},
+  "Herbs": {
+    "name": "ハーブ系",
+    "image": "/items/flower.png"
+  },
   "lifeleaf": {
     "name": "生命の葉",
     "image": "/items/lifeleaf.png"
@@ -132,7 +153,10 @@
   },
 
 
-  "ユーティリティ系": {},
+  "Utilities": {
+    "name": "ユーティリティ系",
+    "image": "/items/flower.png"
+  },
   "ale": {
     "name": "エール",
     "image": "/items/ale.png"
@@ -151,7 +175,10 @@
   },
 
 
-  "城素材系": {},
+  "Castle": {
+    "name": "城素材系",
+    "image": "/items/flower.png"
+  },
   "broken-skull": {
     "name": "ひび割れた頭蓋骨",
     "image": "/items/broken-skull.png"
@@ -238,7 +265,10 @@
   },
 
 
-  "ゴブ素材系": {},
+  "Goblin": {
+    "name": "ゴブ素材系",
+    "image": "/items/flower.png"
+  },
   "goblin-ear": {
     "name": "ゴブリンの耳",
     "image": "/items/goblin-ear.png"
@@ -273,7 +303,10 @@
   },
 
 
-  "雪山素材系": {},
+  "Frost": {
+    "name": "雪山素材系",
+    "image": "/items/flower.png"
+  },
   "giant-toe": {
     "name": "巨人の足指",
     "image": "/items/giant-toe.png"
@@ -312,7 +345,10 @@
   },
 
 
-  "海素材系": {},
+  "Maelstrom": {
+    "name": "海素材系",
+    "image": "/items/flower.png"
+  },
   "shackles": {
     "name": "手錠",
     "image": "/items/shackles.png"
@@ -335,7 +371,10 @@
   },
 
 
-  "ボス素材系": {},
+  "Boss": {
+    "name": "ボス素材系",
+    "image": "/items/flower.png"
+  },
   "spectral-fabric": {
     "name": "霊幻生地",
     "image": "/items/spectral-fabric.png"
@@ -358,7 +397,10 @@
   },
 
 
-  "換金系": {},
+  "Cash-out": {
+    "name": "換金系",
+    "image": "/items/flower.png"
+  },
   "ancient-scroll": {
     "name": "古代のスクロール",
     "image": "/items/ancient-scroll.png"
@@ -380,7 +422,10 @@
     "image": "/items/gold-bowl.png"
   },
 
-  "鉱石系": {},
+  "Ore": {
+    "name": "鉱石系",
+    "image": "/items/flower.png"
+  },
   "cobalt-ore": {
     "name": "コバルト鉱石",
     "image": "/items/cobalt-ore.png"
@@ -398,14 +443,20 @@
     "image": "/items/obsidian-ore.png"
   },
 
-  "インゴット系": {},
+  "Ingot": {
+    "name": "インゴット系",
+    "image": "/items/flower.png"
+  },
   "gold-ingot": {
     "name": "金インゴット",
     "image": "/items/gold-ingot.png"
   },
 
 
-  "期間限定系": {},
+  "Limited-time": {
+    "name": "期間限定系",
+    "image": "/items/flower.png"
+  },
   "black-rose": {
     "name": "黒いバラ",
     "image": "/items/black-rose.png"
