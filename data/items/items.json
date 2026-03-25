@@ -283,6 +283,38 @@
     "name": "サイクロプスの貴重な鏡",
     "image": "/items/cyclops-precious-mirror.png"
   },
+  "cobalt-ore": {
+    "name": "コバルト鉱石",
+    "image": "/items/cobalt-ore.png"
+  },
+  "rubysilver-ore": {
+    "name": "ルビーシルバー鉱石",
+    "image": "/items/rubysilver-ore.png"
+  },
+  "tidestone-ore": {
+    "name": "タイドストーン鉱石",
+    "image": "/items/tidestone-ore.png"
+  },
+  "hard-crab-shell": {
+    "name": "カニの硬殻",
+    "image": "/items/hard-crab-shell.png"
+  },
+  "sharp-sea-urchin-spine": {
+    "name": "鋭いウニの棘",
+    "image": "/items/sharp-sea-urchin-spine.png"
+  },
+  "hourglass": {
+    "name": "砂時計",
+    "image": "/items/hourglass.png"
+  },
+  "walking-cane": {
+    "name": "歩行杖",
+    "image": "/items/walking-cane.png"
+  },
+  "infected-flesh": {
+    "name": "腐敗した肉片",
+    "image": "/items/infected-flesh.png"
+  },
   "flower": {
     "name": "花",
     "image": "/items/flower.png"
