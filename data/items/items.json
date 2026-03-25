@@ -1,8 +1,16 @@
 {
+  "特殊系": {},
   "exp": {
     "name": "経験値",
     "image": "/items/exp.png"
   },
+  "stash": {
+    "name": "倉庫",
+    "image": "/items/stash.png"
+  },
+
+
+  "金貨系": {},
   "gold-coin": {
     "name": "金貨",
     "image": "/items/gold-coin.png"
@@ -15,86 +23,74 @@
     "name": "金貨袋",
     "image": "/items/gold-coin-bag.png"
   },
-  "epic-armor": {
-    "name": "エピック防具",
-    "image": "/items/epic-armor.png"
+
+
+  "武器系": {},
+  "unique-weapon": {
+    "name": "ユニーク武器",
+    "image": "/items/unique-weapon.png"
+  },
+  "legendary-weapon": {
+    "name": "レジェンダリー武器",
+    "image": "/items/legendary-weapon.png"
   },
   "epic-weapon": {
     "name": "エピック武器",
     "image": "/items/epic-weapon.png"
   },
-  "rare-armor": {
-    "name": "レア防具",
-    "image": "/items/rare-armor.png"
-  },
   "rare-weapon": {
     "name": "レア武器",
     "image": "/items/rare-weapon.png"
-  },
-  "uncommon-armor": {
-    "name": "アンコモン防具",
-    "image": "/items/uncommon-armor.png"
   },
   "uncommon-weapon": {
     "name": "アンコモン武器",
     "image": "/items/uncommon-weapon.png"
   },
+  "common-weapon": {
+    "name": "コモン武器",
+    "image": "/items/common-weapon.png"
+  },
+
+
+  "防具系": {},
+  "unique-armor": {
+    "name": "ユニーク防具",
+    "image": "/items/unique-armor.png"
+  },
+  "legendary-armor": {
+    "name": "レジェンダリー防具",
+    "image": "/items/legendary-armor.png"
+  },
+  "epic-armor": {
+    "name": "エピック防具",
+    "image": "/items/epic-armor.png"
+  },
+  "rare-armor": {
+    "name": "レア防具",
+    "image": "/items/rare-armor.png"
+  },
+  "uncommon-armor": {
+    "name": "アンコモン防具",
+    "image": "/items/uncommon-armor.png"
+  },
   "common-armor": {
     "name": "コモン防具",
     "image": "/items/common-armor.png"
   },
-  "common-weapon": {
-    "name": "コモン武器",
-    "image": "/items/common-weapon.png"
+
+
+  "アクセ系": {},
+  "uncommon-accessory": {
+    "name": "アンコモンアクセサリ",
+    "image": "/items/uncommon-accessory.png"
   },
   "arcane-essence": {
     "name": "アーケインエッセンス",
     "image": "/items/arcane-essence.png"
   },
-  "broken-skull": {
-    "name": "ひび割れた頭蓋骨",
-    "image": "/items/broken-skull.png"
-  },
-  "grave-essence": {
-    "name": "墓場の土",
-    "image": "/items/grave-essence.png"
-  },
-  "maggots": {
-    "name": "うじ虫",
-    "image": "/items/maggots.png"
-  },
-  "lifeleaf": {
-    "name": "生命の葉",
-    "image": "/items/lifeleaf.png"
-  },
-  "phantom-flower": {
-    "name": "幻想の花",
-    "image": "/items/phantom-flower.png"
-  },
-  "wardweed": {
-    "name": "監房のハーブ",
-    "image": "/items/wardweed.png"
-  },
-  "black-rose": {
-    "name": "黒いバラ",
-    "image": "/items/black-rose.png"
-  },
-  "herat-candy": {
-    "name": "ハートキャンディ",
-    "image": "/items/herat-candy.png"
-  },
-  "hardened-shell-fragment": {
-    "name": "硬化した甲羅の欠片",
-    "image": "/items/hardened-shell-fragment.png"
-  },
-  "magma-essence": {
-    "name": "マグマエッセンス",
-    "image": "/items/magma-essence.png"
-  },
-  "flickering-ember": {
-    "name": "揺らめく残り火",
-    "image": "/items/flickering-ember.png"
-  },
+
+
+  "回復・ポーション系": {},
   "potion-of-healing": {
     "name": "回復ポーション",
     "image": "/items/potion-of-healing.png"
@@ -111,21 +107,66 @@
     "name": "魔法保護ポーション",
     "image": "/items/magic-protection-potion.png"
   },
+  "bandage": {
+    "name": "包帯",
+    "image": "/items/bandage.png"
+  },
   "surgical-kit": {
     "name": "医療キット",
     "image": "/items/surgical-kit.png"
   },
-  "bandage": {
-    "name": "包帯",
-    "image": "/items/bandage.png"
+
+
+  "ハーブ系": {},
+  "lifeleaf": {
+    "name": "生命の葉",
+    "image": "/items/lifeleaf.png"
+  },
+  "phantom-flower": {
+    "name": "幻想の花",
+    "image": "/items/phantom-flower.png"
+  },
+  "wardweed": {
+    "name": "監房のハーブ",
+    "image": "/items/wardweed.png"
+  },
+
+
+  "ユーティリティ系": {},
+  "ale": {
+    "name": "エール",
+    "image": "/items/ale.png"
   },
   "explosive-bottle": {
     "name": "火炎瓶",
     "image": "/items/explosive-bottle.png"
   },
-  "giant-toe": {
-    "name": "巨人の足指",
-    "image": "/items/giant-toe.png"
+  "campfire-kit": {
+    "name": "焚火キット",
+    "image": "/items/campfire-kit.png"
+  },
+  "trap-disarming-kit": {
+    "name": "トラップ解除キット",
+    "image": "/items/trap-disarming-kit.png"
+  },
+
+
+  "城素材系": {},
+  "broken-skull": {
+    "name": "ひび割れた頭蓋骨",
+    "image": "/items/broken-skull.png"
+  },
+  "intact-skull": {
+    "name": "完璧な頭蓋骨",
+    "image": "/items/intact-skull.png"
+  },
+  "grave-essence": {
+    "name": "墓場の土",
+    "image": "/items/grave-essence.png"
+  },
+  "maggots": {
+    "name": "うじ虫",
+    "image": "/items/maggots.png"
   },
   "moldy-bread": {
     "name": "カビたパン",
@@ -143,10 +184,181 @@
     "name": "古い布",
     "image": "/items/old-cloth.png"
   },
+  "bone": {
+    "name": "骨",
+    "image": "/items/bone.png"
+  },
+  "bone-powder": {
+    "name": "骨粉",
+    "image": "/items/bone-powder.png"
+  },
+  "flame-gas-bag": {
+    "name": "燃焼ガス袋",
+    "image": "/items/flame-gas-bag.png"
+  },
+  "lukewarm-stew": {
+    "name": "ぬるいシチュー",
+    "image": "/items/lukewarm-stew.png"
+  },
+  "red-apple": {
+    "name": "赤いりんご",
+    "image": "/items/red-apple.png"
+  },
+  "rusty-broken-sword": {
+    "name": "錆びて壊れた剣",
+    "image": "/items/rusty-broken-sword.png"
+  },
+  "cockatrice's-lucky-feather": {
+    "name": "コカトリスの幸運羽根",
+    "image": "/items/cockatrice's-lucky-feather.png"
+  },
+  "hourglass": {
+    "name": "砂時計",
+    "image": "/items/hourglass.png"
+  },
+  "walking-cane": {
+    "name": "歩行杖",
+    "image": "/items/walking-cane.png"
+  },
+  "infected-flesh": {
+    "name": "腐敗した肉片",
+    "image": "/items/infected-flesh.png"
+  },
+  "armor-scrap": {
+    "name": "防具の破片",
+    "image": "/items/armor-scrap.png"
+  },
+  "rotten-fluids": {
+    "name": "腐った体液",
+    "image": "/items/rotten-fluids.png"
+  },
+  "broken-bone-spike": {
+    "name": "破損した骨釘",
+    "image": "/items/broken-bone-spike.png"
+  },
+
+
+  "ゴブ素材系": {},
+  "goblin-ear": {
+    "name": "ゴブリンの耳",
+    "image": "/items/goblin-ear.png"
+  },
+  "bug-shell": {
+    "name": "甲虫の甲殻",
+    "image": "/items/bug-shell.png"
+  },
+  "hardened-shell-fragment": {
+    "name": "硬化した甲羅の欠片",
+    "image": "/items/hardened-shell-fragment.png"
+  },
+  "magma-essence": {
+    "name": "マグマエッセンス",
+    "image": "/items/magma-essence.png"
+  },
+  "flickering-ember": {
+    "name": "揺らめく残り火",
+    "image": "/items/flickering-ember.png"
+  },
+  "blazing-tail": {
+    "name": "燃え盛る尾",
+    "image": "/items/blazing-tail.png"
+  },
+  "lava-mushroom": {
+    "name": "溶岩キノコ",
+    "image": "/items/lava-mushroom.png"
+  },
+  "melted-pickaxe-head": {
+    "name": "溶けたつるはしの頭",
+    "image": "/items/melted-pickaxe-head.png"
+  },
+
+
+  "雪山素材系": {},
+  "giant-toe": {
+    "name": "巨人の足指",
+    "image": "/items/giant-toe.png"
+  },
+  "wooden-mask": {
+    "name": "木製の仮面",
+    "image": "/items/wooden-mask.png"
+  },
+  "wolf-fang": {
+    "name": "オオカミの牙",
+    "image": "/items/wolf-fang.png"
+  },
+  "wolf-claw": {
+    "name": "オオカミの爪",
+    "image": "/items/wolf-claw.png"
+  },
+  "extra-thick-pelt": {
+    "name": "厚みのある毛皮",
+    "image": "/items/extra-thick-pelt.png"
+  },
+  "frosted-feather": {
+    "name": "凍った羽根",
+    "image": "/items/frosted-feather.png"
+  },
+  "yeti's-teeth": {
+    "name": "イエティの歯",
+    "image": "/items/yeti's-teeth.png"
+  },
+  "ectoplasm": {
+    "name": "エクトプラズム",
+    "image": "/items/ectoplasm.png"
+  },
+  "frozen-claw": {
+    "name": "凍った爪",
+    "image": "/items/frozen-claw.png"
+  },
+
+
+  "海素材系": {},
+  "shackles": {
+    "name": "手錠",
+    "image": "/items/shackles.png"
+  },
+  "mermaid-scale": {
+    "name": "人魚の鱗",
+    "image": "/items/mermaid-scale.png"
+  },
+  "mermaid's-tear": {
+    "name": "人魚の涙",
+    "image": "/items/mermaid's-tear.png"
+  },
+  "hard-crab-shell": {
+    "name": "カニの硬殻",
+    "image": "/items/hard-crab-shell.png"
+  },
+  "sharp-sea-urchin-spine": {
+    "name": "鋭いウニの棘",
+    "image": "/items/sharp-sea-urchin-spine.png"
+  },
+
+
+  "ボス素材系": {},
   "spectral-fabric": {
     "name": "霊幻生地",
     "image": "/items/spectral-fabric.png"
   },
+  "spectral-hilt": {
+    "name": "霊幻柄",
+    "image": "/items/spectral-hilt.png"
+  },
+  "warlord's-broken-sword-blade": {
+    "name": "ウォーロードの壊れた剣",
+    "image": "/items/warlord's-broken-sword-blade.png"
+  },
+  "cave-trolls-precious-rock": {
+    "name": "洞窟トロールの貴重な岩",
+    "image": "/items/cave-trolls-precious-rock.png"
+  },
+  "cyclops-precious-mirror": {
+    "name": "サイクロプスの貴重な鏡",
+    "image": "/items/cyclops-precious-mirror.png"
+  },
+
+
+  "換金系": {},
   "ancient-scroll": {
     "name": "古代のスクロール",
     "image": "/items/ancient-scroll.png"
@@ -167,122 +379,8 @@
     "name": "ゴールド・ボウル",
     "image": "/items/gold-bowl.png"
   },
-  "wooden-mask": {
-    "name": "木製の仮面",
-    "image": "/items/wooden-mask.png"
-  },
-  "shackles": {
-    "name": "手錠",
-    "image": "/items/shackles.png"
-  },
-  "bone": {
-    "name": "骨",
-    "image": "/items/bone.png"
-  },
-  "wolf-fang": {
-    "name": "オオカミの牙",
-    "image": "/items/wolf-fang.png"
-  },
-  "wolf-claw": {
-    "name": "オオカミの爪",
-    "image": "/items/wolf-claw.png"
-  },
-  "extra-thick-pelt": {
-    "name": "厚みのある毛皮",
-    "image": "/items/extra-thick-pelt.png"
-  },
-  "mermaid-scale": {
-    "name": "人魚の鱗",
-    "image": "/items/mermaid-scale.png"
-  },
-  "mermaid's-tear": {
-    "name": "人魚の涙",
-    "image": "/items/mermaid's-tear.png"
-  },
-  "frosted-feather": {
-    "name": "凍った羽根",
-    "image": "/items/frosted-feather.png"
-  },
-  "yeti's-teeth": {
-    "name": "イエティの歯",
-    "image": "/items/yeti's-teeth.png"
-  },
-  "ale": {
-    "name": "エール",
-    "image": "/items/ale.png"
-  },
-  "uncommon-accessory": {
-    "name": "アンコモンアクセサリ",
-    "image": "/items/uncommon-accessory.png"
-  },
-  "bone-powder": {
-    "name": "骨粉",
-    "image": "/items/bone-powder.png"
-  },
-  "campfire-kit": {
-    "name": "焚火キット",
-    "image": "/items/campfire-kit.png"
-  },
-  "ectoplasm": {
-    "name": "エクトプラズム",
-    "image": "/items/ectoplasm.png"
-  },
-  "flame-gas-bag": {
-    "name": "燃焼ガス袋",
-    "image": "/items/flame-gas-bag.png"
-  },
-  "frozen-claw": {
-    "name": "凍った爪",
-    "image": "/items/frozen-claw.png"
-  },
-  "intact-skull": {
-    "name": "完璧な頭蓋骨",
-    "image": "/items/intact-skull.png"
-  },
-  "lukewarm-stew": {
-    "name": "ぬるいシチュー",
-    "image": "/items/lukewarm-stew.png"
-  },
-  "red-apple": {
-    "name": "赤いりんご",
-    "image": "/items/red-apple.png"
-  },
-  "rusty-broken-sword": {
-    "name": "錆びて壊れた剣",
-    "image": "/items/rusty-broken-sword.png"
-  },
-  "stash": {
-    "name": "倉庫",
-    "image": "/items/stash.png"
-  },
-  "goblin-ear": {
-    "name": "ゴブリンの耳",
-    "image": "/items/goblin-ear.png"
-  },
-  "bug-shell": {
-    "name": "甲虫の甲殻",
-    "image": "/items/bug-shell.png"
-  },
-  "blazing-tail": {
-    "name": "燃え盛る尾",
-    "image": "/items/blazing-tail.png"
-  },
-  "lava-mushroom": {
-    "name": "溶岩キノコ",
-    "image": "/items/lava-mushroom.png"
-  },
-  "cockatrice's-lucky-feather": {
-    "name": "コカトリスの幸運羽根",
-    "image": "/items/cockatrice's-lucky-feather.png"
-  },
-  "cave-trolls-precious-rock": {
-    "name": "洞窟トロールの貴重な岩",
-    "image": "/items/cave-trolls-precious-rock.png"
-  },
-  "cyclops-precious-mirror": {
-    "name": "サイクロプスの貴重な鏡",
-    "image": "/items/cyclops-precious-mirror.png"
-  },
+
+  "鉱石系": {},
   "cobalt-ore": {
     "name": "コバルト鉱石",
     "image": "/items/cobalt-ore.png"
@@ -295,26 +393,33 @@
     "name": "タイドストーン鉱石",
     "image": "/items/tidestone-ore.png"
   },
-  "hard-crab-shell": {
-    "name": "カニの硬殻",
-    "image": "/items/hard-crab-shell.png"
+  "obsidian-ore": {
+    "name": "黒曜鉱石",
+    "image": "/items/obsidian-ore.png"
   },
-  "sharp-sea-urchin-spine": {
-    "name": "鋭いウニの棘",
-    "image": "/items/sharp-sea-urchin-spine.png"
+
+  "インゴット系": {},
+  "gold-ingot": {
+    "name": "金インゴット",
+    "image": "/items/gold-ingot.png"
   },
-  "hourglass": {
-    "name": "砂時計",
-    "image": "/items/hourglass.png"
+
+
+  "期間限定系": {},
+  "black-rose": {
+    "name": "黒いバラ",
+    "image": "/items/black-rose.png"
   },
-  "walking-cane": {
-    "name": "歩行杖",
-    "image": "/items/walking-cane.png"
+  "herat-candy": {
+    "name": "ハートキャンディ",
+    "image": "/items/herat-candy.png"
   },
-  "infected-flesh": {
-    "name": "腐敗した肉片",
-    "image": "/items/infected-flesh.png"
-  },
+
+
+
+
+
+
   "flower": {
     "name": "花",
     "image": "/items/flower.png"
