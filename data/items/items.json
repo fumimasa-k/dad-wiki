@@ -267,6 +267,10 @@
     "name": "破損した骨釘",
     "image": "/items/broken-bone-spike.png"
   },
+  "bowstring": {
+    "name": "弓の弦",
+    "image": "/items/bowstring.png"
+  },
 
 
   "Goblin": {
@@ -276,6 +280,10 @@
   "goblin-ear": {
     "name": "ゴブリンの耳",
     "image": "/items/goblin-ear.png"
+  },
+  "spider-silk": {
+    "name": "蜘蛛の絹",
+    "image": "/items/spider-silk.png"
   },
   "bug-shell": {
     "name": "甲虫の甲殻",
@@ -351,6 +359,14 @@
     "name": "ウェンディゴの臓物",
     "image": "/items/wendigo's-entrails.png"
   },
+  "wendigo's-sharp-claws": {
+    "name": "ウェンディゴの鋭い爪",
+    "image": "/items/wendigo's-sharp-claws.png"
+  },
+  "kobold's-ear": {
+    "name": "コボルトの耳",
+    "image": "/items/kobold's-ear.png"
+  },
 
 
   "Maelstrom": {
@@ -376,6 +392,26 @@
   "sharp-sea-urchin-spine": {
     "name": "鋭いウニの棘",
     "image": "/items/sharp-sea-urchin-spine.png"
+  },
+  "sturdy-cloth": {
+    "name": "頑丈な布",
+    "image": "/items/sturdy-cloth.png"
+  },
+  "tar": {
+    "name": "タール",
+    "image": "/items/tar.png"
+  },
+  "torn-sail": {
+    "name": "破けた帆",
+    "image": "/items/torn-sail.png"
+  },
+  "cuttlefish-ink-sac": {
+    "name": "コウイカの墨袋",
+    "image": "/items/cuttlefish-ink-sac.png"
+  },
+  "iellyfish-glow-essence": {
+    "name": "クラゲの蛍光エッセンス",
+    "image": "/items/iellyfish-glow-essence.png"
   },
 
 
