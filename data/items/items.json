@@ -347,6 +347,10 @@
     "name": "凍った爪",
     "image": "/items/frozen-claw.png"
   },
+  "wendigo's-entrails": {
+    "name": "ウェンディゴの臓物",
+    "image": "/items/wendigo's-entrails.png"
+  },
 
 
   "Maelstrom": {
@@ -466,6 +470,19 @@
   "gold-ingot": {
     "name": "金インゴット",
     "image": "/items/gold-ingot.png"
+  },
+
+  "Wood": {
+    "name": "木材系",
+    "image": "/items/flower.png"
+  },
+  "cracked-log": {
+    "name": "割れた丸太",
+    "image": "/items/cracked-log.png"
+  },
+  "bavin": {
+    "name": "大きな丸太",
+    "image": "/items/bavin.png"
   },
 
 
