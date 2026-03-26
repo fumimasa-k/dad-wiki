@@ -125,6 +125,10 @@
     "name": "魔法保護ポーション",
     "image": "/items/magic-protection-potion.png"
   },
+  "potion-of-luck": {
+    "name": "幸運ポーション",
+    "image": "/items/potion-of-luck.png"
+  },
   "bandage": {
     "name": "包帯",
     "image": "/items/bandage.png"
@@ -420,6 +424,18 @@
   "gold-bowl": {
     "name": "ゴールド・ボウル",
     "image": "/items/gold-bowl.png"
+  },
+  "chronicles-of-the-cursed-crown": {
+    "name": "呪われた王冠の年代記",
+    "image": "/items/chronicles-of-the-cursed-crown.png"
+  },
+  "diary-of-the-toz": {
+    "name": "トズの日記",
+    "image": "/items/diary-of-the-toz.png"
+  },
+  "manuscripts-of-the-warlord": {
+    "name": "ウォーロードの原稿",
+    "image": "/items/manuscripts-of-the-warlordl.png"
   },
 
   "Ore": {
