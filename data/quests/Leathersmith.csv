@@ -1,5 +1,5 @@
 id,title,description,type,repeatable,rewards,requiredItems,objectives,notes
-leathersmith-q1,魅力的な冒険,ああ、完璧だ。他の探索にも役立ちそうだ。ありがとう。彼女はとても冒険心旺盛な人だった。もし何か情報を聞いたら教えてくれ。,納品,FALSE,gold-coin*50|uncommon-armor*2,leather-cap*1,レザーキャップ*1,
+leathersmith-q1,魅力的な冒険,ああ、完璧だ。他の探索にも役立ちそうだ。ありがとう。彼女はとても冒険心旺盛な人だった。もし何か情報を聞いたら教えてくれ。,納品,FALSE,gold-coin*50|uncommon-armor*2,leather-cap*1,レザーキャップ:0:1,
 leathersmith-q2,癒しの時,私の感謝の印としてこれらを受け取ってくれ。そして、どうか早く戻ってきてほしい。君のスキルが役立つ仕事がある。,操作,FALSE,gold-coin*50|uncommon-weapon*2,,回復の祠の操作をする:0:1,ダンジョンタイプ:忘れられた城
 leathersmith-q3,焚き火の物語,あなたの努力に深く感謝している。毎日、疲れを感じているが、希望を捨てることはできない。狩人もまた、この捜索に尽力してくれており、彼が彼女に特別な愛情を抱いていると私は思っている。諦めずにいてくれてありがとう。,探索,FALSE,gold-coin*50|uncommon-armor*2,,盗賊野営地の場所を探索する:0:1,ダンジョンタイプ:忘れられた城
 leathersmith-q4,オークを開けて,たった10個のオークチェストでこれだけの戦利品を見つけたのか？こんなに掘り出し物があったなら、きっと簡単ではなかっただろうね！,操作,FALSE,gold-coin*100|uncommon-weapon*2,,オークの宝箱の操作をする:0:10,ダンジョンタイプ:氷晶洞窟|１試合中
