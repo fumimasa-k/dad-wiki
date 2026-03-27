@@ -17,6 +17,10 @@
     "name": "金貨系",
     "image": "/items/flower.png"
   },
+  "silver-coin": {
+    "name": "銀貨",
+    "image": "/items/silver-coin.png"
+  },
   "gold-coin": {
     "name": "金貨",
     "image": "/items/gold-coin.png"
@@ -28,6 +32,10 @@
   "gold-coin-bag": {
     "name": "金貨袋",
     "image": "/items/gold-coin-bag.png"
+  },
+  "gold-coin-chest": {
+    "name": "金貨箱",
+    "image": "/items/gold-coin-chest.png"
   },
 
 
@@ -129,6 +137,10 @@
     "name": "幸運ポーション",
     "image": "/items/potion-of-luck.png"
   },
+  "great-potion-of-luck": {
+    "name": "上級幸運ポーション",
+    "image": "/items/great-potion-of-luck.png"
+  },
   "bandage": {
     "name": "包帯",
     "image": "/items/bandage.png"
@@ -176,6 +188,10 @@
   "trap-disarming-kit": {
     "name": "トラップ解除キット",
     "image": "/items/trap-disarming-kit.png"
+  },
+  "lockpick": {
+    "name": "ロックピック",
+    "image": "/items/lockpick.png"
   },
 
 
@@ -465,6 +481,46 @@
     "name": "ゴールド・ボウル",
     "image": "/items/gold-bowl.png"
   },
+  "gold-crown": {
+    "name": "金の王冠",
+    "image": "/items/gold-crown.png"
+  },
+  "ceremonial-dagger": {
+    "name": "セレモニアルダガー",
+    "image": "/items/ceremonial-dagger.png"
+  },
+  "gold-goblet": {
+    "name": "ゴールド・ゴブレット",
+    "image": "/items/gold-goblet.png"
+  },
+  "silver-chalice": {
+    "name": "銀の聖杯",
+    "image": "/items/silver-chalice.png"
+  },
+  "gem-necklace": {
+    "name": "宝石のネックレス",
+    "image": "/items/gem-necklace.png"
+  },
+  "gem-ring": {
+    "name": "宝石の指輪",
+    "image": "/items/gem-ring.png"
+  },
+  "dotted-gold-bangle": {
+    "name": "ドット・ゴールド・バングル",
+    "image": "/items/dotted-gold-bangle.png"
+  },
+  "patterned-gold-bangle": {
+    "name": "パターン・ゴールド・バングル",
+    "image": "/items/patterned-gold-bangle.png"
+  },
+  "simple-gold-bangle": {
+    "name": "シンプル・ゴールド・バングル",
+    "image": "/items/simple-gold-bangle.png"
+  },
+  "turquoise-gem-bangle": {
+    "name": "ターコイズ・ジェムバングル",
+    "image": "/items/turquoise-gem-bangle.png"
+  },
   "chronicles-of-the-cursed-crown": {
     "name": "呪われた王冠の年代記",
     "image": "/items/chronicles-of-the-cursed-crown.png"
@@ -481,6 +537,7 @@
     "name": "亡骸",
     "image": "/items/human-remains.png"
   },
+
 
   "Ore": {
     "name": "鉱石系",
