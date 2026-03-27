@@ -477,6 +477,10 @@
     "name": "ウォーロードの原稿",
     "image": "/items/manuscripts-of-the-warlord.png"
   },
+  "human-remains": {
+    "name": "亡骸",
+    "image": "/items/human-remains.png"
+  },
 
   "Ore": {
     "name": "鉱石系",
@@ -519,6 +523,28 @@
   "bavin": {
     "name": "大きな丸太",
     "image": "/items/bavin.png"
+  },
+
+
+  "armors": {
+    "name": "防具系",
+    "image": "/items/flower.png"
+  },
+  "leather-cap": {
+    "name": "レザーキャップ",
+    "image": "/items/leather-cap.png"
+  },
+  "marauder-outfit": {
+    "name": "略奪者の衣装",
+    "image": "/items/marauder-outfit.png"
+  },
+  "troubadour-outfit": {
+    "name": "吟遊詩人の衣装",
+    "image": "/items/troubadour-outfit.png"
+  },
+  "warden-outfit": {
+    "name": "看守の衣装",
+    "image": "/items/warden-outfit.png"
   },
 
 
