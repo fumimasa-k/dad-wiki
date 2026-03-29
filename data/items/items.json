@@ -287,6 +287,34 @@
     "name": "弓の弦",
     "image": "/items/bowstring.png"
   },
+  "stone-mortar": {
+    "name": "石臼",
+    "image": "/items/stone-mortar.png"
+  },
+  "bronze-scale": {
+    "name": "青銅の秤",
+    "image": "/items/bronze-scale.png"
+  },
+  "awl": {
+    "name": "きり",
+    "image": "/items/awl.png"
+  },
+  "bellows": {
+    "name": "ふいご",
+    "image": "/items/bellows.png"
+  },
+  "broken-glasses": {
+    "name": "壊れた眼鏡",
+    "image": "/items/broken-glasses.png"
+  },
+  "pocket-watch": {
+    "name": "懐中時計",
+    "image": "/items/pocket-watch.png"
+  },
+  "mysterious-potion": {
+    "name": "謎のポーション",
+    "image": "/items/mysterious-potion.png"
+  },
 
 
   "Goblin": {
@@ -429,6 +457,14 @@
     "name": "クラゲの蛍光エッセンス",
     "image": "/items/iellyfish-glow-essence.png"
   },
+  "blemished-pearl": {
+    "name": "傷のある真珠",
+    "image": "/items/blemished-pearl.png"
+  },
+  "shining-pearl": {
+    "name": "輝く真珠",
+    "image": "/items/shining-pearl.png"
+  },
 
 
   "Boss": {
@@ -537,6 +573,22 @@
     "name": "亡骸",
     "image": "/items/human-remains.png"
   },
+  "blue-sapphire": {
+    "name": "サファイア",
+    "image": "/items/blue-sapphire.png"
+  },
+  "diamond": {
+    "name": "ダイアモンド",
+    "image": "/items/diamond.png"
+  },
+  "emerald": {
+    "name": "エメラルド",
+    "image": "/items/emerald.png"
+  },
+  "ruby": {
+    "name": "ルビー",
+    "image": "/items/ruby.png"
+  },
 
 
   "Ore": {
@@ -560,6 +612,7 @@
     "image": "/items/obsidian-ore.png"
   },
 
+
   "Ingot": {
     "name": "インゴット系",
     "image": "/items/flower.png"
@@ -568,6 +621,27 @@
     "name": "金インゴット",
     "image": "/items/gold-ingot.png"
   },
+  "obsidian-ingot": {
+    "name": "黒曜石のインゴット",
+    "image": "/items/obsidian-ingot.png"
+  },
+  "tidestone-ingot": {
+    "name": "タイドストーンインゴット",
+    "image": "/items/tidestone-ingot.png"
+  },
+  "rubysilver-ingot": {
+    "name": "ルビーシルバーインゴット",
+    "image": "/items/rubysilver-ingot.png"
+  },
+  "silver-ingot": {
+    "name": "シルバーインゴット",
+    "image": "/items/silver-ingot.png"
+  },
+  "cobalt-ingot": {
+    "name": "コバルトインゴット",
+    "image": "/items/cobalt-ingot.png"
+  },
+
 
   "Wood": {
     "name": "木材系",
