@@ -315,6 +315,22 @@
     "name": "謎のポーション",
     "image": "/items/mysterious-potion.png"
   },
+  "mimic-tongue": {
+    "name": "ミミックの舌",
+    "image": "/items/mimic-tongue.png"
+  },
+  "torn-bat-wing": {
+    "name": "ちぎれたコウモリの翼",
+    "image": "/items/torn-bat-wing.png"
+  },
+  "thick-forefoot": {
+    "name": "分厚い前足",
+    "image": "/items/thick-forefoot.png"
+  },
+  "giant-horn": {
+    "name": "巨大な角",
+    "image": "/items/giant-horn.png"
+  },
 
 
   "Goblin": {
@@ -356,6 +372,10 @@
   "melted-pickaxe-head": {
     "name": "溶けたつるはしの頭",
     "image": "/items/melted-pickaxe-head.png"
+  },
+  "giant-bat-ear": {
+    "name": "巨大コウモリの耳",
+    "image": "/items/giant-bat-ear.png"
   },
 
 
@@ -411,6 +431,26 @@
     "name": "コボルトの耳",
     "image": "/items/kobold's-ear.png"
   },
+  "blue-eyeballs": {
+    "name": "氷狼の眼球",
+    "image": "/items/blue-eyeballs.png"
+  },
+  "armillary-sphere": {
+    "name": "渾天儀",
+    "image": "/items/armillary-sphere.png"
+  },
+  "primitive-bracelet": {
+    "name": "原始的なブレスレット",
+    "image": "/items/primitive-bracelet.png"
+  },
+  "glowing-blue-ice-eyes": {
+    "name": "青く光る氷の眼",
+    "image": "/items/glowing-blue-ice-eyes.png"
+  },
+  "wendigo's-hoof": {
+    "name": "ウェンディゴの蹄",
+    "image": "/items/wendigo's-hoof.png"
+  },
 
 
   "Maelstrom": {
@@ -464,6 +504,30 @@
   "shining-pearl": {
     "name": "輝く真珠",
     "image": "/items/shining-pearl.png"
+  },
+  "saltvine": {
+    "name": "ソルトヴァイン",
+    "image": "/items/saltvine.png"
+  },
+  "seaweed-necklace": {
+    "name": "海藻のネックレス",
+    "image": "/items/seaweed-necklace.png"
+  },
+  "etched-wand-fragment": {
+    "name": "刻印された杖の断片",
+    "image": "/items/etched-wand-fragment.png"
+  },
+  "white-shark-tooth": {
+    "name": "ホホジロザメの歯",
+    "image": "/items/white-shark-tooth.png"
+  },
+  "white-shark-hide": {
+    "name": "ホホジロザメの皮",
+    "image": "/items/white-shark-hide.png"
+  },
+  "white-shark-fin": {
+    "name": "ホホジロザメのヒレ",
+    "image": "/items/white-shark-fin.png"
   },
 
 
@@ -656,6 +720,15 @@
     "image": "/items/bavin.png"
   },
 
+
+  "weapons": {
+    "name": "武器系",
+    "image": "/items/flower.png"
+  },
+  "crystal-ball": {
+    "name": "クリスタルボール",
+    "image": "/items/crystal-ball.png"
+  },
 
   "armors": {
     "name": "防具系",
