@@ -1,5 +1,5 @@
 id,title,description,type,repeatable,rewards,requiredItems,objectives,notes
-navigator-q1,頑丈な船体のために,質は良いですね。これだけ丈夫な木材なら、簡単には壊れないでしょう。持ってきたもので、甲板と船体の修理を始めます。まだ作業が残っていますので、近いうちにまたお願いするかもしれません。,納品,FALSE,gold-coin*50|uncommon-armor*1|potion-of-healing*3|bandage*3||aquaglow-lantern*1,bavin*1||billet*1,大きな丸太:0:3|小さな丸太:0:3,
+navigator-q1,頑丈な船体のために,質は良いですね。これだけ丈夫な木材なら、簡単には壊れないでしょう。持ってきたもので、甲板と船体の修理を始めます。まだ作業が残っていますので、近いうちにまたお願いするかもしれません。,納品,FALSE,gold-coin*50|uncommon-armor*1|potion-of-healing*3|bandage*3|aquaglow-lantern*1,bavin*1||billet*1,大きな丸太:0:3|小さな丸太:0:3,
 navigator-q2,風を包む布,生地は厚くて丈夫です。海に出ても問題ないでしょう。もう少し作業すれば完成できそうです。帆が風を受ける姿を見るのが待ちきれません。,納品,FALSE,gold-coin*50|trap-disarming-kit*2|ale*1|potion-of-healing*3,pincushion*1||sturdy-cloth*1,針刺し:0:1|頑丈な布:0:3,
 navigator-q3,すべてを結びつける結び目,冒険者よ、ありがとう。あなたのおかげで、私の船は生まれ変わったようです。強固な船を迅速かつ安全に操るのが私の特技です。おそらく私は、この世で誰よりも蒼き海の近くを航海してきました。さあ、ついに海へ戻れます。,納品,FALSE,gold-coin*75|uncommon-weapon*1|uncommon-armor*1,old-rope*1||sturdy-rope*1,年季の入った縄:0:3|頑丈なロープ:0:1,
 navigator-q4,過去の影,よくやってくれました。あの日の出来事は忘れられませんが…少しだけ気持ちが晴れた気がします。しかし、まだ始まりにすぎません。でも今はただ、ありがとうと言わせてください。,討伐,FALSE,gold-coin*75|arcane-essence*2,,海賊弓兵キル数:0:5|海賊剣士キル数:0:5,ダンジョンタイプ:船の墓場
