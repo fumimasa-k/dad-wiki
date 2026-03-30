@@ -385,6 +385,10 @@
     "name": "巨大コウモリの耳",
     "image": "/items/giant-bat-ear.png"
   },
+  "cracked-tusk": {
+    "name": "ひび割れた牙",
+    "image": "/items/cracked-tusk.png"
+  },
 
 
   "Frost": {
