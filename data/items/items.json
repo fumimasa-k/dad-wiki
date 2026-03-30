@@ -689,6 +689,10 @@
     "name": "ルビー",
     "image": "/items/ruby.png"
   },
+  "random-legendary-gem": {
+    "name": "ランダムなレジェンダリージェム",
+    "image": "/items/random-legendary-gem.png"
+  },
 
 
   "Ore": {
@@ -789,6 +793,20 @@
   "warden-outfit": {
     "name": "看守の衣装",
     "image": "/items/warden-outfit.png"
+  },
+
+
+  "Emblem": {
+    "name": "特殊報酬系",
+    "image": "/items/flower.png"
+  },
+  "huntress'-silver-emblem": {
+    "name": "女狩人の銀エンブレム",
+    "image": "/items/huntress'-silver-emblem.png"
+  },
+  "huntress'-gold-emblem": {
+    "name": "女狩人の金エンブレム",
+    "image": "/items/huntress'-gold-emblem.png"
   },
 
 
