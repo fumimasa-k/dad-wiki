@@ -1,0 +1,13 @@
+id,title,description,type,repeatable,rewards,requiredItems,objectives,notes
+huntress-q1,デイリーミッション（討伐）,いい腕してるじゃないか。次の試練に挑戦してもいい頃合いかもね。また来てくれるのを待ってるよ。,討伐,FALSE,gold-coin*75|potion-of-healing*3|potion-of-protection*3|huntress'-silver-emblem*1,,ランダムなモンスターの討伐:0:5,
+huntress-q2,デイリーミッション（納品）,いい腕してるじゃないか。次の試練に挑戦してもいい頃合いかもね。また来てくれるのを待ってるよ。,納品,FALSE,gold-coin*75|lockpick*3|bandage*3|huntress'-silver-emblem*1,,ランダムな素材の納品:0:1,
+huntress-q3,デイリーミッション（生還）,いい腕してるじゃないか。次の試練に挑戦してもいい頃合いかもね。また来てくれるのを待ってるよ。,生還,FALSE,gold-coin*75|potion-of-healing*3|potion-of-protection*3|huntress'-silver-emblem*1,,ランダムなダンジョンからの生還:0:1,
+huntress-q4,ウィークリーミッション１（討伐）,いい腕してるじゃないか。次の試練に挑戦してもいい頃合いかもね。また来てくれるのを待ってるよ。,討伐,FALSE,gold-coin*150|legendary-weapon*1|huntress'-gold-emblem*1,,ランダムなモンスターの討伐:0:1,
+huntress-q5,ウィークリーミッション１（納品）,いい腕してるじゃないか。次の試練に挑戦してもいい頃合いかもね。また来てくれるのを待ってるよ。,納品,FALSE,gold-coin*150|legendary-armor*1|huntress'-gold-emblem*1,,ランダムな素材の納品:0:1,
+huntress-q6,ウィークリーミッション１（生還）,いい腕してるじゃないか。次の試練に挑戦してもいい頃合いかもね。また来てくれるのを待ってるよ。,生還,FALSE,gold-coin*150|legendary-weapon*1|huntress'-gold-emblem*1,,ランダムなダンジョンからの生還:0:3,
+huntress-q7,ウィークリーミッション２,いい腕してるじゃないか。次の試練に挑戦してもいい頃合いかもね。また来てくれるのを待ってるよ。,納品,FALSE,gold-coin*150|random-legendary-gem*1|huntress'-gold-emblem*1,huntress'-silver-emblem*1,女狩人の銀エンブレム:0:3,
+huntress-q8,ウィークリーミッション２,いい腕してるじゃないか。次の試練に挑戦してもいい頃合いかもね。また来てくれるのを待ってるよ。,納品,FALSE,gold-coin*150|random-legendary-gem*1|huntress'-gold-emblem*1,huntress'-silver-emblem*1,女狩人の銀エンブレム:0:5,
+huntress-q9,ウィークリーミッション２,いい腕してるじゃないか。次の試練に挑戦してもいい頃合いかもね。また来てくれるのを待ってるよ。,納品,FALSE,gold-coin*150|random-legendary-gem*1|huntress'-gold-emblem*1,huntress'-silver-emblem*1,女狩人の銀エンブレム:0:7,
+huntress-q10,シーズンミッション,いい腕してるじゃないか。次の試練に挑戦してもいい頃合いかもね。また来てくれるのを待ってるよ。,納品,FALSE,gold-coin-pouch*1,huntress'-gold-emblem*1,女狩人の金エンブレム:0:5,
+huntress-q11,シーズンミッション,いい腕してるじゃないか。次の試練に挑戦してもいい頃合いかもね。また来てくれるのを待ってるよ。,納品,FALSE,gold-coin-bag*1,huntress'-gold-emblem*1,女狩人の金エンブレム:0:15,
+huntress-q12,シーズンミッション,いい腕してるじゃないか。次の試練に挑戦してもいい頃合いかもね。また来てくれるのを待ってるよ。,納品,FALSE,gold-coin-chest*1,huntress'-gold-emblem*1,女狩人の金エンブレム:0:30,
