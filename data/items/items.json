@@ -167,6 +167,10 @@
     "name": "監房のハーブ",
     "image": "/items/wardweed.png"
   },
+  "saltvine": {
+    "name": "ソルトヴァイン",
+    "image": "/items/saltvine.png"
+  },
 
 
   "Utilities": {
@@ -192,6 +196,10 @@
   "lockpick": {
     "name": "ロックピック",
     "image": "/items/lockpick.png"
+  },
+  "aquaglow-lantern": {
+    "name": "アクアグロー・ランタン",
+    "image": "/items/aquaglow-lantern.png"
   },
 
 
@@ -505,10 +513,6 @@
     "name": "輝く真珠",
     "image": "/items/shining-pearl.png"
   },
-  "saltvine": {
-    "name": "ソルトヴァイン",
-    "image": "/items/saltvine.png"
-  },
   "seaweed-necklace": {
     "name": "海藻のネックレス",
     "image": "/items/seaweed-necklace.png"
@@ -528,6 +532,34 @@
   "white-shark-fin": {
     "name": "ホホジロザメのヒレ",
     "image": "/items/white-shark-fin.png"
+  },
+  "pincushion": {
+    "name": "針刺し",
+    "image": "/items/pincushion.png"
+  },
+  "old-rope": {
+    "name": "年季の入った縄",
+    "image": "/items/old-rope.png"
+  },
+  "sturdy-rope": {
+    "name": "頑丈なロープ",
+    "image": "/items/sturdy-rope.png"
+  },
+  "old-nautical-chart-fragment": {
+    "name": "古い海図の断片",
+    "image": "/items/old-nautical-chart-fragment.png"
+  },
+  "sailor's-journal": {
+    "name": "航海日誌",
+    "image": "/items/sailor's-journal.png"
+  },
+  "coral-fragment": {
+    "name": "サンゴの破片",
+    "image": "/items/coral-fragment.png"
+  },
+  "crocodilian-eyeball": {
+    "name": "クロコディリアンの眼球",
+    "image": "/items/crocodilian-eyeball.png"
   },
 
 
@@ -719,9 +751,13 @@
     "name": "大きな丸太",
     "image": "/items/bavin.png"
   },
+  "billet": {
+    "name": "小さな丸太",
+    "image": "/items/billet.png"
+  },
 
 
-  "weapons": {
+  "Weapons": {
     "name": "武器系",
     "image": "/items/flower.png"
   },
@@ -730,7 +766,7 @@
     "image": "/items/crystal-ball.png"
   },
 
-  "armors": {
+  "Armors": {
     "name": "防具系",
     "image": "/items/flower.png"
   },
