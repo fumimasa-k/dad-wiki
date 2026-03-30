@@ -808,6 +808,10 @@
     "name": "女狩人の金エンブレム",
     "image": "/items/huntress'-gold-emblem.png"
   },
+  "antiquated-coin": {
+    "name": "古代のコイン",
+    "image": "/items/antiquated-coin.png"
+  },
 
 
   "Limited-time": {
