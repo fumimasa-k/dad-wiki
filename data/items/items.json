@@ -339,6 +339,10 @@
     "name": "巨大な角",
     "image": "/items/giant-horn.png"
   },
+  "cockatrice's-egg": {
+    "name": "コカトリスの卵",
+    "image": "/items/cockatrice's-egg.png"
+  },
 
 
   "Goblin": {
@@ -692,6 +696,42 @@
   "random-legendary-gem": {
     "name": "ランダムなレジェンダリージェム",
     "image": "/items/random-legendary-gem.png"
+  },
+  "gold-band": {
+    "name": "ゴールドバンド",
+    "image": "/items/gold-band.png"
+  },
+  "glimmer-bangle": {
+    "name": "グリマー・バングル",
+    "image": "/items/glimmer-bangle.png"
+  },
+  "shine-bangle": {
+    "name": "シャイン・バングル",
+    "image": "/items/shine-bangle.png"
+  },
+  "pearl-necklace": {
+    "name": "真珠のネックレス",
+    "image": "/items/pearl-necklace.png"
+  },
+  "triple-gem-bangle": {
+    "name": "トリプルジェム・バングル",
+    "image": "/items/triple-gem-bangle.png"
+  },
+  "slim-bangle": {
+    "name": "スリム・バングル",
+    "image": "/items/slim-bangle.png"
+  },
+  "gold-candle-platter": {
+    "name": "金の蠟燭皿",
+    "image": "/items/gold-candle-platter.png"
+  },
+  "gold-chalice": {
+    "name": "金の聖杯",
+    "image": "/items/gold-chalice.png"
+  },
+  "goblet": {
+    "name": "ゴブレット",
+    "image": "/items/goblet.png"
   },
 
 
