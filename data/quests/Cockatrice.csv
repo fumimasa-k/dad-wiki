@@ -1,0 +1,13 @@
+id,title,description,type,repeatable,rewards,requiredItems,objectives,notes
+cockatrice-q1,コカトリスの仲間の準備,…（この厚さなら卵を暖かく保つには十分でしょう。コカトリスは宝物を集める習性があるので、事前にいくつかの宝物を巣に置いておくのが良いかもしれません。）,納品,FALSE,,ceremonial-dagger*1|gem-necklace*1|extra-thick-pelt*1,セレモニアルダガー:0:2|宝石のネックレス（標準）:0:2|厚みのある毛皮:0:2,
+cockatrice-q2,巣を満たす,…（これで十分でしょう。空っぽの巣は、未来の主人を待っています。）,納品,FALSE,,gem-ring*1|gold-band*1|cockatrice's-lucky-feather*1,宝石の指輪（標準）:0:2|ゴールドバンド（標準）:0:2|コカトリスの幸運羽根:0:2,
+cockatrice-q3,卵の入手,…（卵は宝物でいっぱいの巣に置かれました。あとは孵化するまで大切に育てるだけです。）,納品,FALSE,,simple-gold-bangle*1|patterned-gold-bangle*1|cockatrice's-egg*1,シンプル・ゴールド・バングル（標準）:0:2|パターン・ゴールド・バングル（標準）:0:2|コカトリスの卵:0:1,
+cockatrice-q4,異常な行動,…！（ブレスレットがそばに置かれると、卵がわずかに震えます。どうやら…とても喜んでいるようです。）,納品,FALSE,,dotted-gold-bangle*1|glimmer-bangle*1,ドット・ゴールド・バングル（精巧）:0:3|グリマー・バングル（精巧）:0:3,
+cockatrice-q5,卵が欲しがるもの,…！（ブレスレットがそばに置かれると、卵がわずかに震えます。どうやらとても嬉しそうです。）,納品,FALSE,,turquoise-gem-bangle*1|shine-bangle*1,ターコイズ・ジェムバングル（精巧）:0:3|シャイン・バングル（精巧）:0:3,
+cockatrice-q6,金のウォーターボウル,ピィ！ピィ！（卵が激しく震え始め、すぐにパキッという音が聞こえました。しばらくして、生まれたばかりのコカトリスの甲高い鳴き声が響き渡りました。言い伝えによれば、コカトリスは生まれたその日から、主人に毎日一つ宝物をもたらすと言われています。この話が真実かどうかはすぐに分かるでしょう。）,納品,FALSE,,pearl-necklace*1|gold-bowl*1,真珠のネックレス（精巧）:0:3|ゴールド・ボウル（精巧）:0:3,
+cockatrice-q7,新しい宝物のおもちゃ,ピィ！ピィ！（コカトリスの赤ちゃんが興奮して鳴き、頭を左右に振っています。どうやらとても嬉しそうです。）,納品,FALSE,,triple-gem-bangle*1|gold-candelabra*1,トリプルジェム・バングル（完璧）:0:3|金の燭台（完璧）:0:3,
+cockatrice-q8,コカトリスのお気に入り,ピィ！ピィ！（コカトリスの赤ちゃんは小さな翼をパタパタと動かし、あなたを見つめています。どうやらとても嬉しそうです。）,納品,FALSE,,silver-chalice*1|gold-candle-holder*1,銀の聖杯（完璧）:0:3|金の蠟燭立て（完璧）:0:3,
+cockatrice-q9,元気を取り戻すために,キュルルル…！（ひときわ大きくなったコカトリスが、キラキラと輝く目であなたを見つめています。柔らかい綿毛が抜け落ちて、なめらかな新しい青い羽毛に生え変わりました。新しい羽毛は、まるで満足そうに小さく揺れています。）,納品,FALSE,,slim-bangle*1|gold-candle-platter*1,スリム・バングル（完璧）:0:3|金の蠟燭皿（完璧）:0:3,
+cockatrice-q10,選り好み,キュルル！（コカトリスの赤ちゃんはあなたが持ってきた新しい宝物に寄りかかり、満足げに音を立てています。）,納品,FALSE,arcane-essence*4|blue-sapphire*1|diamond*1|emerald*1|ruby*1,gold-goblet*1|gold-waterpot*1,ゴールド・ゴブレット（王家）:0:5|ゴールドポット（王家）:0:5,
+cockatrice-q11,新しいお気に入り探し,キュルルル…（コカトリスの赤ちゃんは杯を見て幸せそうに鳴きますが、古代のスクロールには全く興味を示しません。どうやらそのようなものには関心がないようです。）,納品,FALSE,,gold-chalice*1|ancient-scroll*1,金の聖杯（王家）:0:5|古代のスクロール:0:5,
+cockatrice-q12,もっと良いものをくれ！,,納品,FALSE,arcane-essence*2|blue-sapphire*1|diamond*1|emerald*1|ruby*1,gold-crown*1|goblet*1,金の王冠（王家）:0:5|ゴブレット（王家）:0:5,
