@@ -343,6 +343,10 @@
     "name": "コカトリスの卵",
     "image": "/items/cockatrice's-egg.png"
   },
+  "smoky-poison-powder": {
+    "name": "毒煙粉",
+    "image": "/items/smoky-poison-powder.png"
+  },
 
 
   "Goblin": {
