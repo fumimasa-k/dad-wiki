@@ -29,7 +29,7 @@ export default function AdSense({
                 (window.adsbygoogle = window.adsbygoogle || []).push({});
             }
         } catch {
-            // AdSense script–¢“Ç‚âÄ•`‰æ‚Ì—áŠO‚ğ–³‹
+            // AdSense scriptæœªèª­è¾¼ã‚„å†æç”»æ™‚ã®ä¾‹å¤–ã‚’ç„¡è¦–
         }
     }, []);
 
