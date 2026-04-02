@@ -943,3 +943,7 @@ hr.sep {
 .questDetailPane::-webkit-scrollbar-thumb:hover {
     background: rgba(255, 183, 0, 0.55);
 }
+
+.adsbygoogle {
+    width: 100%;
+}

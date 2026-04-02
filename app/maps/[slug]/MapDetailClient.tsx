@@ -4,6 +4,7 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import Image from "next/image";
 import Tag from "@/components/Tag";
 import type { MapInfo } from "@/lib/maps";
+import AdSense from "@/components/AdSense";
 
 type Point = { x: number; y: number };
 
@@ -236,4 +237,10 @@ export default function MapDetailClient({ map }: { map: MapInfo }) {
             </div>
         </div>
     );
+
+    <AdSense
+        adSlot="1234567890"
+        className="card"
+        style={{ minHeight: 120 }}
+    />
 }

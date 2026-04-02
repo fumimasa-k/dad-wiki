@@ -3,6 +3,7 @@
 import { useMemo, useState } from "react";
 import Image from "next/image";
 import type { NpcQuestGroup } from "@/lib/quests";
+import AdSense from "@/components/AdSense";
 
 export default function QuestsClient({
     npcGroups,
@@ -231,4 +232,10 @@ export default function QuestsClient({
             </div>
         </div>
     );
+
+    <AdSense
+        adSlot="1234567890"
+        className="card"
+        style={{ minHeight: 120 }}
+    />
 }

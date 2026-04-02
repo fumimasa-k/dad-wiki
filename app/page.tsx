@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import AdSense from "@/components/AdSense";
 import { getAllPatchNotesMeta } from "@/lib/patchNotes";
 
 export default function HomePage() {
@@ -13,6 +14,12 @@ export default function HomePage() {
                     マップ、クエスト、パッチノートなどを整理する日本語攻略サイトです。
                 </p>
             </div>
+
+            <AdSense
+                adSlot="1234567890"
+                className="card"
+                style={{ minHeight: 120 }}
+            />
 
             {/* メニュー */}
             <div className="card">
