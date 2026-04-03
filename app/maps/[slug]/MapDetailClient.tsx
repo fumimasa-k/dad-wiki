@@ -180,6 +180,11 @@ export default function MapDetailClient({ map }: { map: MapInfo }) {
                     </div>
                 </aside>
 
+                <AdSense
+                    adSlot="1111111111"
+                    className="adBlock adSpacerBottom"
+                />
+
                 <section className="mapViewerSection">
                     <div className="mapViewerToolbar">
                         <span className="muted">ホイールで拡大縮小 / ドラッグで移動</span>
@@ -233,10 +238,6 @@ export default function MapDetailClient({ map }: { map: MapInfo }) {
                             </div>
                         </div>
                     </div>
-                    <AdSense
-                        adSlot="1111111111"
-                        className="adBlock adSpacerBottom"
-                    />
                 </section>
             </div>
         </div>

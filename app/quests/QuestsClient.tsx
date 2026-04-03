@@ -73,6 +73,11 @@ export default function QuestsClient({
             {/*    <h1 className="h1">現在のクエストリスト</h1>*/}
             {/*</div>*/}
 
+            <AdSense
+                adSlot="1111111111"
+                className="adBlock adSpacerBottom"
+            />
+
             <div className="card questNpcSelectBar">
                 <label htmlFor="npc-select" className="questNpcSelectLabel">
                     NPC選択
@@ -143,11 +148,6 @@ export default function QuestsClient({
                             <p>{questDescription}</p>
                         </div>
                     </div>
-
-                    <AdSense
-                        adSlot="1111111111"
-                        className="adBlock adSpacerBottom"
-                    />
 
                     {!selectedQuest ? (
                         <div className="questSection">

@@ -15,11 +15,6 @@ export default function HomePage() {
                 </p>
             </div>
 
-            <AdSense
-                adSlot="1111111111"
-                className="adBlock adSpacerBottom"
-            />
-
             {/* メニュー */}
             <div className="card">
                 <div className="h2">コンテンツ</div>
@@ -76,6 +71,12 @@ export default function HomePage() {
                     パッチノート一覧 →
                 </Link>
             </div>
+
+            <AdSense
+                adSlot="1111111111"
+                className="adBlock adSpacerBottom"
+            />
+
         </div>
     );
 }
