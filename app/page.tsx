@@ -16,9 +16,8 @@ export default function HomePage() {
             </div>
 
             <AdSense
-                adSlot="1234567890"
-                className="card"
-                style={{ minHeight: 120 }}
+                adSlot="1111111111"
+                className="adBlock adSpacerBottom"
             />
 
             {/* メニュー */}
