@@ -3,7 +3,6 @@
 import { useMemo, useState } from "react";
 import Image from "next/image";
 import type { NpcQuestGroup } from "@/lib/quests";
-import AdSense from "@/components/AdSense";
 
 export default function QuestsClient({
     npcGroups,
@@ -72,11 +71,6 @@ export default function QuestsClient({
             {/*<div className="card">*/}
             {/*    <h1 className="h1">現在のクエストリスト</h1>*/}
             {/*</div>*/}
-
-            <AdSense
-                adSlot="1111111111"
-                className="adBlock adSpacerBottom"
-            />
 
             <div className="card questNpcSelectBar">
                 <label htmlFor="npc-select" className="questNpcSelectLabel">

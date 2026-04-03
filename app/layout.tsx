@@ -11,13 +11,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     return (
         <html lang="ja">
             <body>
-                <Script
-                    id="adsense-script"
-                    async
-                    strategy="afterInteractive"
-                    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8110073956743613"
-                    crossOrigin="anonymous"
-                />
                 <Header />
                 <div className="container">{children}</div>
             </body>

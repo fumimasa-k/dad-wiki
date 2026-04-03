@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-import AdSense from "@/components/AdSense";
 import { getAllPatchNotesMeta } from "@/lib/patchNotes";
 
 export default function HomePage() {
@@ -71,12 +70,6 @@ export default function HomePage() {
                     パッチノート一覧 →
                 </Link>
             </div>
-
-            <AdSense
-                adSlot="1111111111"
-                className="adBlock adSpacerBottom"
-            />
-
         </div>
     );
 }
