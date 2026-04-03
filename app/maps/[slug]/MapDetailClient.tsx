@@ -147,11 +147,6 @@ export default function MapDetailClient({ map }: { map: MapInfo }) {
                 {map.description ? <p className="muted">{map.description}</p> : null}
             </div>
 
-            <AdSense
-                adSlot="1111111111"
-                className="adBlock adSpacerBottom"
-            />
-
             <div className="card mapLayout mapPageMain">
                 <aside className="floorSidebar">
                     <div className="floorSidebarTitle">階層選択</div>
@@ -240,6 +235,10 @@ export default function MapDetailClient({ map }: { map: MapInfo }) {
                     </div>
                 </section>
             </div>
+            <AdSense
+                adSlot="1111111111"
+                className="adBlock adSpacerBottom"
+            />
         </div>
     );
 }
