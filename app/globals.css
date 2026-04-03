@@ -331,7 +331,11 @@ hr.sep {
 ========================= */
 
 .mapPageRoot {
+    height: calc(100vh - 90px);
+    max-height: calc(100vh - 90px);
+    overflow: hidden;
     display: grid;
+    grid-template-rows: auto minmax(0, 1fr);
     gap: 16px;
 }
 
@@ -341,6 +345,7 @@ hr.sep {
 
 .mapPageMain {
     min-height: 0;
+    overflow: hidden;
 }
 
 .mapLayout {
@@ -863,6 +868,12 @@ hr.sep {
 }
 
 @media (max-width: 900px) {
+    .mapPageRoot {
+        height: calc(100vh - 80px);
+        max-height: calc(100vh - 80px);
+        overflow: hidden;
+    }
+
     .mapLayout {
         grid-template-columns: 1fr;
     }
