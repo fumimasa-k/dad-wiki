@@ -25,23 +25,6 @@ export default function MapDetailClient({ map }: { map: MapInfo }) {
     const selectedFloor = useMemo(() => {
         return map.floors.find((f) => f.id === selectedFloorId) ?? map.floors[0];
     }, [map.floors, selectedFloorId]);
-
-    useEffect(() => {
-        // 階層を切り替えたらズームと位置を初期化
-        setScale(1);
-        setTranslate({ x: 0, y: 0 });
-        const prevHtmlOverflow = document.documentElement.style.overflow;
-        const prevBodyOverflow = document.body.style.overflow;
-
-        document.documentElement.style.overflow = "hidden";
-        document.body.style.overflow = "hidden";
-
-        return () => {
-            document.documentElement.style.overflow = prevHtmlOverflow;
-            document.body.style.overflow = prevBodyOverflow;
-        };
-    }, [selectedFloorId]);
-
     function clampScale(next: number) {
         return Math.min(MAX_SCALE, Math.max(MIN_SCALE, Number(next.toFixed(3))));
     }
