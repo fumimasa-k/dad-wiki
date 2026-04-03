@@ -218,10 +218,6 @@ export default function MapDetailClient({ map }: { map: MapInfo }) {
                     </div>
                 </section>
             </div>
-            <AdSense
-                adSlot="1111111111"
-                className="adBlock adSpacerBottom"
-            />
         </div>
     );
 }
