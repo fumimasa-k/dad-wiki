@@ -233,14 +233,12 @@ export default function MapDetailClient({ map }: { map: MapInfo }) {
                             </div>
                         </div>
                     </div>
+                    <AdSense
+                        adSlot="1111111111"
+                        className="adBlock adSpacerBottom"
+                    />
                 </section>
             </div>
         </div>
     );
-
-    <AdSense
-        adSlot="1234567890"
-        className="card"
-        style={{ minHeight: 120 }}
-    />
 }

@@ -944,6 +944,20 @@ hr.sep {
     background: rgba(255, 183, 0, 0.55);
 }
 
-.adsbygoogle {
+.adBlock {
     width: 100%;
+    min-height: 90px;
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.02);
+    overflow: hidden;
+}
+
+.adSpacerTop {
+    margin-top: 16px;
+}
+
+.adSpacerBottom {
+    margin-bottom: 16px;
 }

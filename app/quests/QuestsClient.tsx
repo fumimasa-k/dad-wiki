@@ -144,6 +144,11 @@ export default function QuestsClient({
                         </div>
                     </div>
 
+                    <AdSense
+                        adSlot="1111111111"
+                        className="adBlock adSpacerBottom"
+                    />
+
                     {!selectedQuest ? (
                         <div className="questSection">
                             <div className="questSectionTitle">詳細</div>
@@ -232,10 +237,4 @@ export default function QuestsClient({
             </div>
         </div>
     );
-
-    <AdSense
-        adSlot="1234567890"
-        className="card"
-        style={{ minHeight: 120 }}
-    />
 }

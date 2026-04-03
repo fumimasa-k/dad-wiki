@@ -10,31 +10,38 @@ declare global {
 
 type AdSenseProps = {
     adSlot: string;
-    adFormat?: "auto" | "fluid" | "rectangle" | "horizontal" | "vertical";
+    adFormat?: "auto" | "rectangle" | "horizontal" | "vertical";
+    fullWidthResponsive?: boolean;
     className?: string;
     style?: React.CSSProperties;
-    fullWidthResponsive?: boolean;
 };
 
 export default function AdSense({
     adSlot,
     adFormat = "auto",
+    fullWidthResponsive = true,
     className,
     style,
-    fullWidthResponsive = true,
 }: AdSenseProps) {
     useEffect(() => {
         try {
             if (typeof window !== "undefined") {
                 (window.adsbygoogle = window.adsbygoogle || []).push({});
             }
-        } catch {
-            // AdSense script未読込や再描画時の例外を無視
+        } catch (err) {
+            console.error("AdSense error:", err);
         }
     }, []);
 
     return (
-        <div className={className} style={{ overflow: "hidden", ...style }}>
+        <div
+            className={className}
+            style={{
+                width: "100%",
+                overflow: "hidden",
+                ...style,
+            }}
+        >
             <ins
                 className="adsbygoogle"
                 style={{ display: "block" }}
