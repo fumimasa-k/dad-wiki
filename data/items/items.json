@@ -599,6 +599,14 @@
     "name": "サイクロプスの貴重な鏡",
     "image": "/items/cyclops-precious-mirror.png"
   },
+  "cyclops-eye": {
+    "name": "サイクロプスの目",
+    "image": "/items/cyclops-eye.png"
+  },
+  "troll's-club": {
+    "name": "トロールのこん棒",
+    "image": "/items/troll's-club.png"
+  },
 
 
   "Cash-out": {
