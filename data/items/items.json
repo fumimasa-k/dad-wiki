@@ -471,6 +471,14 @@
     "name": "ウェンディゴの蹄",
     "image": "/items/wendigo's-hoof.png"
   },
+  "frozen-heart": {
+    "name": "凍った心臓",
+    "image": "/items/frozen-heart.png"
+  },
+  "wendigo's-antler-fragment": {
+    "name": "ウェンディゴ角の破片",
+    "image": "/items/wendigo's-antler-fragment.png"
+  },
 
 
   "Maelstrom": {
@@ -606,6 +614,10 @@
   "troll's-club": {
     "name": "トロールのこん棒",
     "image": "/items/troll's-club.png"
+  },
+  "tear-of-the-volcano": {
+    "name": "火山の涙",
+    "image": "/items/tear-of-the-volcano.png"
   },
 
 
@@ -877,6 +889,18 @@
   "herat-candy": {
     "name": "ハートキャンディ",
     "image": "/items/herat-candy.png"
+  },
+  "squat": {
+    "name": "スクワット",
+    "image": "/items/squat.png"
+  },
+  "toxic-torch": {
+    "name": "有毒たいまつ",
+    "image": "/items/toxic-torch.png"
+  },
+  "emotional-breakdown": {
+    "name": "感情の決壊",
+    "image": "/items/emotional-breakdown.png"
   },
 
 
